@@ -20,5 +20,11 @@ public class ControlBatallaNaval {
    
    public void imprimir(){
        System.out.println("\n\t OCEANO SV");
+       for (int fila=0;fila<10; fila++){
+           System.out.println("");
+           for(int columna=0;columna<10;columna++){
+               System.out.println("\t"+ oceano[fila][columna]);
+           }
+       }
    }
 }
