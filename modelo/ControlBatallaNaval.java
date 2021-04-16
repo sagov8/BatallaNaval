@@ -1,6 +1,8 @@
 
 package modelo;
 
+import java.util.Random;
+
 /**
  *
  * @author sagov8
@@ -18,6 +20,18 @@ public class ControlBatallaNaval {
        
    }
    
+   public void asignarSubmarino(){
+       Random aleatorio=new Random();
+       for(int fila=0; fila<10; fila++){
+         oceano[fila][aleatorio.nextInt(9)]=1 ;
+       }
+   }
+   
+   public void fijarValor (int fila, int col, char valor){
+              oceano[fila][col]=valor;
+    
+    }
+   
    public void imprimir(){
        System.out.println("\n\t OCEANO SV");
        for (int fila=0;fila<10; fila++){
@@ -27,4 +41,10 @@ public class ControlBatallaNaval {
            }
        }
    }
+   
+   public void comparar(){
+    
+    
 }
+}
+
