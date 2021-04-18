@@ -2,6 +2,7 @@
 package modelo;
 
 import java.util.Random;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -18,22 +19,25 @@ public class ControlBatallaNaval {
            }
        }
        
-   }
+  }
    
    public void asignarSubmarino(){
        Random aleatorio=new Random();
        for(int fila=0; fila<10; fila++){
-         oceano[fila][aleatorio.nextInt(9)]=1 ;
+           
+             oceano[fila][aleatorio.nextInt(9)]=1 ;  
+           
+         
        }
    }
    
-   public void fijarValor (int fila, int col, char valor){
+   public void fijarValor (int fila, int col, int valor){
               oceano[fila][col]=valor;
     
     }
    
    public void imprimir(){
-       System.out.println("\n\t OCEANO SV");
+       System.out.println("\n\t OCEANO ");
        for (int fila=0;fila<10; fila++){
            System.out.println("");
            for(int columna=0;columna<10;columna++){
@@ -43,8 +47,11 @@ public class ControlBatallaNaval {
    }
    
    public void comparar(){
+      
+          
+      }
     
     
 }
-}
+
 
