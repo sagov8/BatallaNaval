@@ -12,6 +12,7 @@ public class Oceano extends javax.swing.JFrame {
     ControlBatallaNaval control;
     int misiles= 75;
     int puntos=0;
+    int disparos=0;
 
     public Oceano() {
         initComponents();
@@ -21,6 +22,7 @@ public class Oceano extends javax.swing.JFrame {
         control.imprimir();
         txt_Misiles_.setText("75");
         txt_Puntos.setText("0");
+        txt_disparos_.setText("0");
     }
     
     
@@ -144,6 +146,9 @@ public class Oceano extends javax.swing.JFrame {
         txt_Puntos = new javax.swing.JTextField();
         jPanel4 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
+        jPanel6 = new javax.swing.JPanel();
+        jLabel4 = new javax.swing.JLabel();
+        txt_disparos_ = new javax.swing.JTextField();
         jLabel5 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -1185,9 +1190,9 @@ public class Oceano extends javax.swing.JFrame {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel3)
-                .addGap(18, 18, 18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 27, Short.MAX_VALUE)
                 .addComponent(txt_Misiles_, javax.swing.GroupLayout.PREFERRED_SIZE, 71, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(19, Short.MAX_VALUE))
+                .addContainerGap())
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1222,9 +1227,9 @@ public class Oceano extends javax.swing.JFrame {
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel2)
-                .addGap(18, 18, 18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 28, Short.MAX_VALUE)
                 .addComponent(txt_Puntos, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18))
+                .addContainerGap())
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1237,7 +1242,7 @@ public class Oceano extends javax.swing.JFrame {
         );
 
         jPanel2.add(jPanel3);
-        jPanel3.setBounds(810, 230, 198, 56);
+        jPanel3.setBounds(810, 230, 200, 56);
 
         jPanel4.setBackground(new java.awt.Color(0, 0, 0));
 
@@ -1264,6 +1269,46 @@ public class Oceano extends javax.swing.JFrame {
 
         jPanel2.add(jPanel4);
         jPanel4.setBounds(760, 40, 330, 60);
+
+        jPanel6.setBackground(new java.awt.Color(0, 0, 0));
+
+        jLabel4.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(51, 153, 0));
+        jLabel4.setText("Disparos");
+
+        txt_disparos_.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txt_disparos_ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
+        jPanel6.setLayout(jPanel6Layout);
+        jPanel6Layout.setHorizontalGroup(
+            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel6Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 116, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(txt_disparos_, javax.swing.GroupLayout.DEFAULT_SIZE, 60, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+        jPanel6Layout.setVerticalGroup(
+            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(jPanel6Layout.createSequentialGroup()
+                        .addComponent(txt_disparos_)
+                        .addGap(1, 1, 1))
+                    .addGroup(jPanel6Layout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(jLabel4)))
+                .addContainerGap())
+        );
+
+        jPanel2.add(jPanel6);
+        jPanel6.setBounds(810, 310, 200, 50);
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(0, 204, 0));
@@ -1690,6 +1735,10 @@ public class Oceano extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_txt_Misiles_ActionPerformed
 
+    private void txt_disparos_ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_disparos_ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txt_disparos_ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -1830,12 +1879,15 @@ public class Oceano extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
+    private javax.swing.JPanel jPanel6;
     private javax.swing.JTextField txt_Misiles_;
     private javax.swing.JTextField txt_Puntos;
+    private javax.swing.JTextField txt_disparos_;
     // End of variables declaration//GEN-END:variables
 }
