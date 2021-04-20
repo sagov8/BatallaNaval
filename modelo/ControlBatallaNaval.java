@@ -25,7 +25,7 @@ public class ControlBatallaNaval {
        Random aleatorio=new Random();
        for(int fila=0; fila<10; fila++){
            
-             oceano[fila][aleatorio.nextInt(9)]=1 ;  
+             oceano[fila][aleatorio.nextInt(10)]=1 ;  
            
          
        }
@@ -46,10 +46,22 @@ public class ControlBatallaNaval {
        }
    }
    
-   public void comparar(){
+   //
+   public boolean comparar(int puntos, int misiles){
+       boolean gameOver=false;
+       if(puntos==0 && misiles >0){
+           JOptionPane.showMessageDialog(null, "\n GANASTE"); 
+       }
+       
+       if(puntos<10 && misiles==0){
+          JOptionPane.showMessageDialog(null, "\n PERDISTE");  
+          gameOver=true;
+       }
       
-          
+       return gameOver;   
       }
+   
+  
     
     
 }
