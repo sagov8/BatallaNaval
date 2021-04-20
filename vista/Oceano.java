@@ -19,6 +19,8 @@ public class Oceano extends javax.swing.JFrame {
         control.asignarSubmarino();
         control.limpiar();
         control.imprimir();
+        txt_Misiles_.setText("75");
+        txt_Puntos.setText("0");
     }
     
     
@@ -133,7 +135,7 @@ public class Oceano extends javax.swing.JFrame {
         jButton99 = new javax.swing.JButton();
         jButton100 = new javax.swing.JButton();
         jButton101 = new javax.swing.JButton();
-        jButton1 = new javax.swing.JButton();
+        JB_nuevoJuego_ = new javax.swing.JButton();
         jPanel1 = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
         txt_Misiles_ = new javax.swing.JTextField();
@@ -1150,24 +1152,31 @@ public class Oceano extends javax.swing.JFrame {
         jPanel2.add(jButton101);
         jButton101.setBounds(676, 556, 68, 55);
 
-        jButton1.setBackground(new java.awt.Color(0, 0, 0));
-        jButton1.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 36)); // NOI18N
-        jButton1.setForeground(new java.awt.Color(0, 153, 0));
-        jButton1.setText("NEW GAME");
-        jButton1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 153, 0), 4));
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        JB_nuevoJuego_.setBackground(new java.awt.Color(0, 0, 0));
+        JB_nuevoJuego_.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 36)); // NOI18N
+        JB_nuevoJuego_.setForeground(new java.awt.Color(0, 153, 0));
+        JB_nuevoJuego_.setText("NEW GAME");
+        JB_nuevoJuego_.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 153, 0), 4));
+        JB_nuevoJuego_.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                JB_nuevoJuego_ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton1);
-        jButton1.setBounds(810, 410, 230, 70);
+        jPanel2.add(JB_nuevoJuego_);
+        JB_nuevoJuego_.setBounds(810, 420, 230, 70);
 
         jPanel1.setBackground(new java.awt.Color(0, 0, 0));
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(51, 153, 0));
         jLabel3.setText("Misiles");
+
+        txt_Misiles_.setFont(new java.awt.Font("Verdana", 1, 12)); // NOI18N
+        txt_Misiles_.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txt_Misiles_ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -1184,14 +1193,14 @@ public class Oceano extends javax.swing.JFrame {
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel3)
-                    .addComponent(txt_Misiles_, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(20, Short.MAX_VALUE))
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(txt_Misiles_))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         jPanel2.add(jPanel1);
-        jPanel1.setBounds(810, 140, 198, 61);
+        jPanel1.setBounds(810, 140, 198, 50);
 
         jPanel3.setBackground(new java.awt.Color(0, 0, 0));
 
@@ -1199,6 +1208,7 @@ public class Oceano extends javax.swing.JFrame {
         jLabel2.setForeground(new java.awt.Color(51, 153, 0));
         jLabel2.setText("Puntos");
 
+        txt_Puntos.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         txt_Puntos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txt_PuntosActionPerformed(evt);
@@ -1212,21 +1222,22 @@ public class Oceano extends javax.swing.JFrame {
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel2)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(txt_Puntos, javax.swing.GroupLayout.DEFAULT_SIZE, 77, Short.MAX_VALUE)
+                .addGap(18, 18, 18)
+                .addComponent(txt_Puntos, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18))
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel3Layout.createSequentialGroup()
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
+                .addContainerGap()
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel2)
-                    .addComponent(txt_Puntos, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(0, 15, Short.MAX_VALUE))
+                    .addComponent(txt_Puntos, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel2))
+                .addContainerGap())
         );
 
         jPanel2.add(jPanel3);
-        jPanel3.setBounds(810, 230, 198, 45);
+        jPanel3.setBounds(810, 230, 198, 56);
 
         jPanel4.setBackground(new java.awt.Color(0, 0, 0));
 
@@ -1238,7 +1249,10 @@ public class Oceano extends javax.swing.JFrame {
         jPanel4.setLayout(jPanel4Layout);
         jPanel4Layout.setHorizontalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 330, Short.MAX_VALUE)
+            .addGroup(jPanel4Layout.createSequentialGroup()
+                .addGap(20, 20, 20)
+                .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 300, Short.MAX_VALUE)
+                .addContainerGap())
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1662,15 +1676,19 @@ public class Oceano extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton101ActionPerformed
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void JB_nuevoJuego_ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JB_nuevoJuego_ActionPerformed
         control.imprimir();
         control.limpiar();
         control.asignarSubmarino();
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }//GEN-LAST:event_JB_nuevoJuego_ActionPerformed
 
     private void txt_PuntosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_PuntosActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txt_PuntosActionPerformed
+
+    private void txt_Misiles_ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_Misiles_ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txt_Misiles_ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -1710,7 +1728,7 @@ public class Oceano extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton BTN_01;
     private javax.swing.JButton BTN_02;
-    private javax.swing.JButton jButton1;
+    private javax.swing.JButton JB_nuevoJuego_;
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton100;
     private javax.swing.JButton jButton101;
