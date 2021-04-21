@@ -29,114 +29,111 @@ public class Oceano extends javax.swing.JFrame {
 
    
     @SuppressWarnings("unchecked")
-    
-  
-
 
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
         jPanel2 = new javax.swing.JPanel();
-        BTN_01 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
-        BTN_02 = new javax.swing.JButton();
-        jButton6 = new javax.swing.JButton();
-        jButton7 = new javax.swing.JButton();
-        jButton8 = new javax.swing.JButton();
-        jButton9 = new javax.swing.JButton();
-        jButton10 = new javax.swing.JButton();
-        jButton11 = new javax.swing.JButton();
-        jButton12 = new javax.swing.JButton();
-        jButton13 = new javax.swing.JButton();
-        jButton14 = new javax.swing.JButton();
-        jButton15 = new javax.swing.JButton();
-        jButton16 = new javax.swing.JButton();
-        jButton17 = new javax.swing.JButton();
-        jButton18 = new javax.swing.JButton();
-        jButton19 = new javax.swing.JButton();
-        jButton20 = new javax.swing.JButton();
-        jButton21 = new javax.swing.JButton();
-        jButton22 = new javax.swing.JButton();
-        jButton23 = new javax.swing.JButton();
-        jButton24 = new javax.swing.JButton();
-        jButton25 = new javax.swing.JButton();
-        jButton26 = new javax.swing.JButton();
-        jButton27 = new javax.swing.JButton();
-        jButton28 = new javax.swing.JButton();
-        jButton29 = new javax.swing.JButton();
-        jButton30 = new javax.swing.JButton();
-        jButton31 = new javax.swing.JButton();
-        jButton32 = new javax.swing.JButton();
-        jButton33 = new javax.swing.JButton();
-        jButton34 = new javax.swing.JButton();
-        jButton35 = new javax.swing.JButton();
-        jButton36 = new javax.swing.JButton();
-        jButton37 = new javax.swing.JButton();
-        jButton38 = new javax.swing.JButton();
-        jButton39 = new javax.swing.JButton();
-        jButton40 = new javax.swing.JButton();
-        jButton41 = new javax.swing.JButton();
-        jButton42 = new javax.swing.JButton();
-        jButton43 = new javax.swing.JButton();
-        jButton44 = new javax.swing.JButton();
-        jButton45 = new javax.swing.JButton();
-        jButton46 = new javax.swing.JButton();
-        jButton47 = new javax.swing.JButton();
-        jButton48 = new javax.swing.JButton();
-        jButton49 = new javax.swing.JButton();
-        jButton50 = new javax.swing.JButton();
-        jButton51 = new javax.swing.JButton();
-        jButton52 = new javax.swing.JButton();
-        jButton53 = new javax.swing.JButton();
-        jButton54 = new javax.swing.JButton();
-        jButton55 = new javax.swing.JButton();
-        jButton56 = new javax.swing.JButton();
-        jButton57 = new javax.swing.JButton();
-        jButton58 = new javax.swing.JButton();
-        jButton59 = new javax.swing.JButton();
-        jButton60 = new javax.swing.JButton();
-        jButton61 = new javax.swing.JButton();
-        jButton62 = new javax.swing.JButton();
-        jButton63 = new javax.swing.JButton();
-        jButton64 = new javax.swing.JButton();
-        jButton65 = new javax.swing.JButton();
-        jButton66 = new javax.swing.JButton();
-        jButton67 = new javax.swing.JButton();
-        jButton68 = new javax.swing.JButton();
-        jButton69 = new javax.swing.JButton();
-        jButton70 = new javax.swing.JButton();
-        jButton71 = new javax.swing.JButton();
-        jButton72 = new javax.swing.JButton();
-        jButton73 = new javax.swing.JButton();
-        jButton74 = new javax.swing.JButton();
-        jButton75 = new javax.swing.JButton();
-        jButton76 = new javax.swing.JButton();
-        jButton77 = new javax.swing.JButton();
-        jButton78 = new javax.swing.JButton();
-        jButton79 = new javax.swing.JButton();
-        jButton80 = new javax.swing.JButton();
-        jButton81 = new javax.swing.JButton();
-        jButton82 = new javax.swing.JButton();
-        jButton83 = new javax.swing.JButton();
-        jButton84 = new javax.swing.JButton();
-        jButton85 = new javax.swing.JButton();
-        jButton86 = new javax.swing.JButton();
-        jButton87 = new javax.swing.JButton();
-        jButton88 = new javax.swing.JButton();
-        jButton89 = new javax.swing.JButton();
-        jButton90 = new javax.swing.JButton();
-        jButton91 = new javax.swing.JButton();
-        jButton92 = new javax.swing.JButton();
-        jButton93 = new javax.swing.JButton();
-        jButton94 = new javax.swing.JButton();
-        jButton95 = new javax.swing.JButton();
-        jButton96 = new javax.swing.JButton();
-        jButton97 = new javax.swing.JButton();
-        jButton98 = new javax.swing.JButton();
-        jButton99 = new javax.swing.JButton();
-        jButton100 = new javax.swing.JButton();
-        jButton101 = new javax.swing.JButton();
+        BTN_1 = new javax.swing.JButton();
+        BTN_7 = new javax.swing.JButton();
+        BTN_6 = new javax.swing.JButton();
+        BTN_2 = new javax.swing.JButton();
+        BTN_10 = new javax.swing.JButton();
+        BTN_3 = new javax.swing.JButton();
+        BTN_4 = new javax.swing.JButton();
+        BTN_5 = new javax.swing.JButton();
+        BTN_8 = new javax.swing.JButton();
+        BTN_9 = new javax.swing.JButton();
+        BTN_11 = new javax.swing.JButton();
+        BTN_12 = new javax.swing.JButton();
+        BTN_13 = new javax.swing.JButton();
+        BTN_14 = new javax.swing.JButton();
+        BTN_15 = new javax.swing.JButton();
+        BTN_16 = new javax.swing.JButton();
+        BTN_17 = new javax.swing.JButton();
+        BTN_18 = new javax.swing.JButton();
+        BTN_19 = new javax.swing.JButton();
+        BTN_20 = new javax.swing.JButton();
+        BTN_21 = new javax.swing.JButton();
+        BTN_22 = new javax.swing.JButton();
+        BTN_23 = new javax.swing.JButton();
+        BTN_24 = new javax.swing.JButton();
+        BTN_25 = new javax.swing.JButton();
+        BTN_26 = new javax.swing.JButton();
+        BTN_27 = new javax.swing.JButton();
+        BTN_28 = new javax.swing.JButton();
+        BTN_29 = new javax.swing.JButton();
+        BTN_30 = new javax.swing.JButton();
+        BTN_31 = new javax.swing.JButton();
+        BTN_32 = new javax.swing.JButton();
+        BTN_33 = new javax.swing.JButton();
+        BTN_34 = new javax.swing.JButton();
+        BTN_35 = new javax.swing.JButton();
+        BTN_36 = new javax.swing.JButton();
+        BTN_37 = new javax.swing.JButton();
+        BTN_38 = new javax.swing.JButton();
+        BTN_39 = new javax.swing.JButton();
+        BTN_40 = new javax.swing.JButton();
+        BTN_41 = new javax.swing.JButton();
+        BTN_42 = new javax.swing.JButton();
+        BTN_43 = new javax.swing.JButton();
+        BTN_44 = new javax.swing.JButton();
+        BTN_45 = new javax.swing.JButton();
+        BTN_46 = new javax.swing.JButton();
+        BTN_47 = new javax.swing.JButton();
+        BTN_48 = new javax.swing.JButton();
+        BTN_49 = new javax.swing.JButton();
+        BTN_50 = new javax.swing.JButton();
+        BTN_51 = new javax.swing.JButton();
+        BTN_52 = new javax.swing.JButton();
+        BTN_53 = new javax.swing.JButton();
+        BTN_54 = new javax.swing.JButton();
+        BTN_55 = new javax.swing.JButton();
+        BTN_56 = new javax.swing.JButton();
+        BTN_57 = new javax.swing.JButton();
+        BTN_58 = new javax.swing.JButton();
+        BTN_59 = new javax.swing.JButton();
+        BTN_60 = new javax.swing.JButton();
+        BTN_61 = new javax.swing.JButton();
+        BTN_62 = new javax.swing.JButton();
+        BTN_63 = new javax.swing.JButton();
+        BTN_64 = new javax.swing.JButton();
+        BTN_65 = new javax.swing.JButton();
+        BTN_66 = new javax.swing.JButton();
+        BTN_67 = new javax.swing.JButton();
+        BTN_68 = new javax.swing.JButton();
+        BTN_69 = new javax.swing.JButton();
+        BTN_70 = new javax.swing.JButton();
+        BTN_71 = new javax.swing.JButton();
+        BTN_72 = new javax.swing.JButton();
+        BTN_73 = new javax.swing.JButton();
+        BTN_74 = new javax.swing.JButton();
+        BTN_75 = new javax.swing.JButton();
+        BTN_76 = new javax.swing.JButton();
+        BTN_77 = new javax.swing.JButton();
+        BTN_78 = new javax.swing.JButton();
+        BTN_79 = new javax.swing.JButton();
+        BTN_80 = new javax.swing.JButton();
+        BTN_81 = new javax.swing.JButton();
+        BTN_82 = new javax.swing.JButton();
+        BTN_83 = new javax.swing.JButton();
+        BTN_84 = new javax.swing.JButton();
+        BTN_85 = new javax.swing.JButton();
+        BTN_86 = new javax.swing.JButton();
+        BTN_87 = new javax.swing.JButton();
+        BTN_88 = new javax.swing.JButton();
+        BTN_89 = new javax.swing.JButton();
+        BTN_90 = new javax.swing.JButton();
+        BTN_91 = new javax.swing.JButton();
+        BTN_92 = new javax.swing.JButton();
+        BTN_93 = new javax.swing.JButton();
+        BTN_94 = new javax.swing.JButton();
+        BTN_95 = new javax.swing.JButton();
+        BTN_96 = new javax.swing.JButton();
+        BTN_97 = new javax.swing.JButton();
+        BTN_98 = new javax.swing.JButton();
+        BTN_99 = new javax.swing.JButton();
+        BTN_100 = new javax.swing.JButton();
         JB_nuevoJuego_ = new javax.swing.JButton();
         jPanel1 = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
@@ -157,1005 +154,1005 @@ public class Oceano extends javax.swing.JFrame {
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
         jPanel2.setLayout(null);
 
-        BTN_01.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        BTN_01.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
-        BTN_01.addActionListener(new java.awt.event.ActionListener() {
+        BTN_1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_1.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
+        BTN_1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BTN_01ActionPerformed(evt);
+                BTN_1ActionPerformed(evt);
             }
         });
-        jPanel2.add(BTN_01);
-        BTN_01.setBounds(10, 2, 68, 55);
+        jPanel2.add(BTN_1);
+        BTN_1.setBounds(10, 2, 68, 55);
 
-        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton3.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
-        jButton3.addActionListener(new java.awt.event.ActionListener() {
+        BTN_7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_7.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
+        BTN_7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton3ActionPerformed(evt);
+                BTN_7ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton3);
-        jButton3.setBounds(454, 2, 68, 55);
+        jPanel2.add(BTN_7);
+        BTN_7.setBounds(454, 2, 68, 55);
 
-        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton4.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
-        jButton4.addActionListener(new java.awt.event.ActionListener() {
+        BTN_6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_6.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
+        BTN_6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton4ActionPerformed(evt);
+                BTN_6ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton4);
-        jButton4.setBounds(380, 2, 68, 55);
+        jPanel2.add(BTN_6);
+        BTN_6.setBounds(380, 2, 68, 55);
 
-        BTN_02.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        BTN_02.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
-        BTN_02.addActionListener(new java.awt.event.ActionListener() {
+        BTN_2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_2.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
+        BTN_2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BTN_02ActionPerformed(evt);
+                BTN_2ActionPerformed(evt);
             }
         });
-        jPanel2.add(BTN_02);
-        BTN_02.setBounds(84, 2, 68, 55);
+        jPanel2.add(BTN_2);
+        BTN_2.setBounds(84, 2, 68, 55);
 
-        jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton6.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
-        jButton6.addActionListener(new java.awt.event.ActionListener() {
+        BTN_10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_10.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
+        BTN_10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton6ActionPerformed(evt);
+                BTN_10ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton6);
-        jButton6.setBounds(676, 2, 68, 55);
+        jPanel2.add(BTN_10);
+        BTN_10.setBounds(676, 2, 68, 55);
 
-        jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton7.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
-        jButton7.addActionListener(new java.awt.event.ActionListener() {
+        BTN_3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_3.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
+        BTN_3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton7ActionPerformed(evt);
+                BTN_3ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton7);
-        jButton7.setBounds(158, 2, 68, 55);
+        jPanel2.add(BTN_3);
+        BTN_3.setBounds(158, 2, 68, 55);
 
-        jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton8.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
-        jButton8.addActionListener(new java.awt.event.ActionListener() {
+        BTN_4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_4.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
+        BTN_4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton8ActionPerformed(evt);
+                BTN_4ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton8);
-        jButton8.setBounds(232, 2, 68, 55);
+        jPanel2.add(BTN_4);
+        BTN_4.setBounds(232, 2, 68, 55);
 
-        jButton9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton9.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
-        jButton9.addActionListener(new java.awt.event.ActionListener() {
+        BTN_5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_5.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
+        BTN_5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton9ActionPerformed(evt);
+                BTN_5ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton9);
-        jButton9.setBounds(306, 2, 68, 55);
+        jPanel2.add(BTN_5);
+        BTN_5.setBounds(306, 2, 68, 55);
 
-        jButton10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton10.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
-        jButton10.addActionListener(new java.awt.event.ActionListener() {
+        BTN_8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_8.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
+        BTN_8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton10ActionPerformed(evt);
+                BTN_8ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton10);
-        jButton10.setBounds(528, 2, 68, 55);
+        jPanel2.add(BTN_8);
+        BTN_8.setBounds(528, 2, 68, 55);
 
-        jButton11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton11.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
-        jButton11.addActionListener(new java.awt.event.ActionListener() {
+        BTN_9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_9.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
+        BTN_9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton11ActionPerformed(evt);
+                BTN_9ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton11);
-        jButton11.setBounds(602, 2, 68, 55);
+        jPanel2.add(BTN_9);
+        BTN_9.setBounds(602, 2, 68, 55);
 
-        jButton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton12.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
-        jButton12.addActionListener(new java.awt.event.ActionListener() {
+        BTN_11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_11.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
+        BTN_11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton12ActionPerformed(evt);
+                BTN_11ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton12);
-        jButton12.setBounds(10, 68, 68, 55);
+        jPanel2.add(BTN_11);
+        BTN_11.setBounds(10, 68, 68, 55);
 
-        jButton13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton13.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
-        jButton13.addActionListener(new java.awt.event.ActionListener() {
+        BTN_12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_12.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
+        BTN_12.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton13ActionPerformed(evt);
+                BTN_12ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton13);
-        jButton13.setBounds(84, 68, 68, 55);
+        jPanel2.add(BTN_12);
+        BTN_12.setBounds(84, 68, 68, 55);
 
-        jButton14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton14.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
-        jButton14.addActionListener(new java.awt.event.ActionListener() {
+        BTN_13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_13.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
+        BTN_13.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton14ActionPerformed(evt);
+                BTN_13ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton14);
-        jButton14.setBounds(158, 68, 68, 55);
+        jPanel2.add(BTN_13);
+        BTN_13.setBounds(158, 68, 68, 55);
 
-        jButton15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton15.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
-        jButton15.addActionListener(new java.awt.event.ActionListener() {
+        BTN_14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_14.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
+        BTN_14.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton15ActionPerformed(evt);
+                BTN_14ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton15);
-        jButton15.setBounds(232, 68, 68, 55);
+        jPanel2.add(BTN_14);
+        BTN_14.setBounds(232, 68, 68, 55);
 
-        jButton16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton16.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
-        jButton16.addActionListener(new java.awt.event.ActionListener() {
+        BTN_15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_15.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
+        BTN_15.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton16ActionPerformed(evt);
+                BTN_15ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton16);
-        jButton16.setBounds(306, 68, 68, 55);
+        jPanel2.add(BTN_15);
+        BTN_15.setBounds(306, 68, 68, 55);
 
-        jButton17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton17.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
-        jButton17.addActionListener(new java.awt.event.ActionListener() {
+        BTN_16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_16.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
+        BTN_16.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton17ActionPerformed(evt);
+                BTN_16ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton17);
-        jButton17.setBounds(380, 68, 68, 55);
+        jPanel2.add(BTN_16);
+        BTN_16.setBounds(380, 68, 68, 55);
 
-        jButton18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton18.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
-        jButton18.addActionListener(new java.awt.event.ActionListener() {
+        BTN_17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_17.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
+        BTN_17.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton18ActionPerformed(evt);
+                BTN_17ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton18);
-        jButton18.setBounds(454, 68, 68, 55);
+        jPanel2.add(BTN_17);
+        BTN_17.setBounds(454, 68, 68, 55);
 
-        jButton19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton19.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
-        jButton19.addActionListener(new java.awt.event.ActionListener() {
+        BTN_18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_18.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
+        BTN_18.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton19ActionPerformed(evt);
+                BTN_18ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton19);
-        jButton19.setBounds(528, 68, 68, 55);
+        jPanel2.add(BTN_18);
+        BTN_18.setBounds(528, 68, 68, 55);
 
-        jButton20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton20.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
-        jButton20.addActionListener(new java.awt.event.ActionListener() {
+        BTN_19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_19.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
+        BTN_19.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton20ActionPerformed(evt);
+                BTN_19ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton20);
-        jButton20.setBounds(602, 68, 68, 55);
+        jPanel2.add(BTN_19);
+        BTN_19.setBounds(602, 68, 68, 55);
 
-        jButton21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton21.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
-        jButton21.addActionListener(new java.awt.event.ActionListener() {
+        BTN_20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_20.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
+        BTN_20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton21ActionPerformed(evt);
+                BTN_20ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton21);
-        jButton21.setBounds(676, 68, 68, 55);
+        jPanel2.add(BTN_20);
+        BTN_20.setBounds(676, 68, 68, 55);
 
-        jButton22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton22.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
-        jButton22.addActionListener(new java.awt.event.ActionListener() {
+        BTN_21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_21.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
+        BTN_21.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton22ActionPerformed(evt);
+                BTN_21ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton22);
-        jButton22.setBounds(10, 129, 68, 55);
+        jPanel2.add(BTN_21);
+        BTN_21.setBounds(10, 129, 68, 55);
 
-        jButton23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton23.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
-        jButton23.addActionListener(new java.awt.event.ActionListener() {
+        BTN_22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_22.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
+        BTN_22.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton23ActionPerformed(evt);
+                BTN_22ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton23);
-        jButton23.setBounds(84, 129, 68, 55);
+        jPanel2.add(BTN_22);
+        BTN_22.setBounds(84, 129, 68, 55);
 
-        jButton24.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton24.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
-        jButton24.addActionListener(new java.awt.event.ActionListener() {
+        BTN_23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_23.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
+        BTN_23.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton24ActionPerformed(evt);
+                BTN_23ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton24);
-        jButton24.setBounds(158, 129, 68, 55);
+        jPanel2.add(BTN_23);
+        BTN_23.setBounds(158, 129, 68, 55);
 
-        jButton25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton25.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
-        jButton25.addActionListener(new java.awt.event.ActionListener() {
+        BTN_24.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_24.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
+        BTN_24.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton25ActionPerformed(evt);
+                BTN_24ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton25);
-        jButton25.setBounds(232, 129, 68, 55);
+        jPanel2.add(BTN_24);
+        BTN_24.setBounds(232, 129, 68, 55);
 
-        jButton26.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton26.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
-        jButton26.addActionListener(new java.awt.event.ActionListener() {
+        BTN_25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_25.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
+        BTN_25.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton26ActionPerformed(evt);
+                BTN_25ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton26);
-        jButton26.setBounds(306, 129, 68, 55);
+        jPanel2.add(BTN_25);
+        BTN_25.setBounds(306, 129, 68, 55);
 
-        jButton27.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton27.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
-        jButton27.addActionListener(new java.awt.event.ActionListener() {
+        BTN_26.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_26.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
+        BTN_26.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton27ActionPerformed(evt);
+                BTN_26ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton27);
-        jButton27.setBounds(380, 129, 68, 55);
+        jPanel2.add(BTN_26);
+        BTN_26.setBounds(380, 129, 68, 55);
 
-        jButton28.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton28.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
-        jButton28.addActionListener(new java.awt.event.ActionListener() {
+        BTN_27.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_27.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
+        BTN_27.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton28ActionPerformed(evt);
+                BTN_27ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton28);
-        jButton28.setBounds(454, 129, 68, 55);
+        jPanel2.add(BTN_27);
+        BTN_27.setBounds(454, 129, 68, 55);
 
-        jButton29.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton29.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
-        jButton29.addActionListener(new java.awt.event.ActionListener() {
+        BTN_28.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_28.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
+        BTN_28.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton29ActionPerformed(evt);
+                BTN_28ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton29);
-        jButton29.setBounds(528, 129, 68, 55);
+        jPanel2.add(BTN_28);
+        BTN_28.setBounds(528, 129, 68, 55);
 
-        jButton30.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton30.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
-        jButton30.addActionListener(new java.awt.event.ActionListener() {
+        BTN_29.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_29.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
+        BTN_29.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton30ActionPerformed(evt);
+                BTN_29ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton30);
-        jButton30.setBounds(602, 129, 68, 55);
+        jPanel2.add(BTN_29);
+        BTN_29.setBounds(602, 129, 68, 55);
 
-        jButton31.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton31.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
-        jButton31.addActionListener(new java.awt.event.ActionListener() {
+        BTN_30.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_30.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
+        BTN_30.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton31ActionPerformed(evt);
+                BTN_30ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton31);
-        jButton31.setBounds(676, 129, 68, 55);
+        jPanel2.add(BTN_30);
+        BTN_30.setBounds(676, 129, 68, 55);
 
-        jButton32.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton32.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
-        jButton32.addActionListener(new java.awt.event.ActionListener() {
+        BTN_31.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_31.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
+        BTN_31.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton32ActionPerformed(evt);
+                BTN_31ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton32);
-        jButton32.setBounds(10, 190, 68, 55);
+        jPanel2.add(BTN_31);
+        BTN_31.setBounds(10, 190, 68, 55);
 
-        jButton33.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton33.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
-        jButton33.addActionListener(new java.awt.event.ActionListener() {
+        BTN_32.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_32.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
+        BTN_32.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton33ActionPerformed(evt);
+                BTN_32ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton33);
-        jButton33.setBounds(84, 190, 68, 55);
+        jPanel2.add(BTN_32);
+        BTN_32.setBounds(84, 190, 68, 55);
 
-        jButton34.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton34.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
-        jButton34.addActionListener(new java.awt.event.ActionListener() {
+        BTN_33.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_33.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
+        BTN_33.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton34ActionPerformed(evt);
+                BTN_33ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton34);
-        jButton34.setBounds(158, 190, 68, 55);
+        jPanel2.add(BTN_33);
+        BTN_33.setBounds(158, 190, 68, 55);
 
-        jButton35.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton35.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
-        jButton35.addActionListener(new java.awt.event.ActionListener() {
+        BTN_34.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_34.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
+        BTN_34.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton35ActionPerformed(evt);
+                BTN_34ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton35);
-        jButton35.setBounds(232, 190, 68, 55);
+        jPanel2.add(BTN_34);
+        BTN_34.setBounds(232, 190, 68, 55);
 
-        jButton36.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton36.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
-        jButton36.addActionListener(new java.awt.event.ActionListener() {
+        BTN_35.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_35.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
+        BTN_35.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton36ActionPerformed(evt);
+                BTN_35ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton36);
-        jButton36.setBounds(306, 190, 68, 55);
+        jPanel2.add(BTN_35);
+        BTN_35.setBounds(306, 190, 68, 55);
 
-        jButton37.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton37.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
-        jButton37.addActionListener(new java.awt.event.ActionListener() {
+        BTN_36.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_36.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
+        BTN_36.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton37ActionPerformed(evt);
+                BTN_36ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton37);
-        jButton37.setBounds(380, 190, 68, 55);
+        jPanel2.add(BTN_36);
+        BTN_36.setBounds(380, 190, 68, 55);
 
-        jButton38.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton38.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
-        jButton38.addActionListener(new java.awt.event.ActionListener() {
+        BTN_37.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_37.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
+        BTN_37.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton38ActionPerformed(evt);
+                BTN_37ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton38);
-        jButton38.setBounds(454, 190, 68, 55);
+        jPanel2.add(BTN_37);
+        BTN_37.setBounds(454, 190, 68, 55);
 
-        jButton39.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton39.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
-        jButton39.addActionListener(new java.awt.event.ActionListener() {
+        BTN_38.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_38.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
+        BTN_38.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton39ActionPerformed(evt);
+                BTN_38ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton39);
-        jButton39.setBounds(528, 190, 68, 55);
+        jPanel2.add(BTN_38);
+        BTN_38.setBounds(528, 190, 68, 55);
 
-        jButton40.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton40.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
-        jButton40.addActionListener(new java.awt.event.ActionListener() {
+        BTN_39.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_39.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
+        BTN_39.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton40ActionPerformed(evt);
+                BTN_39ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton40);
-        jButton40.setBounds(602, 190, 68, 55);
+        jPanel2.add(BTN_39);
+        BTN_39.setBounds(602, 190, 68, 55);
 
-        jButton41.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton41.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
-        jButton41.addActionListener(new java.awt.event.ActionListener() {
+        BTN_40.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_40.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
+        BTN_40.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton41ActionPerformed(evt);
+                BTN_40ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton41);
-        jButton41.setBounds(676, 190, 68, 55);
+        jPanel2.add(BTN_40);
+        BTN_40.setBounds(676, 190, 68, 55);
 
-        jButton42.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton42.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
-        jButton42.addActionListener(new java.awt.event.ActionListener() {
+        BTN_41.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_41.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
+        BTN_41.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton42ActionPerformed(evt);
+                BTN_41ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton42);
-        jButton42.setBounds(10, 251, 68, 55);
+        jPanel2.add(BTN_41);
+        BTN_41.setBounds(10, 251, 68, 55);
 
-        jButton43.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton43.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
-        jButton43.addActionListener(new java.awt.event.ActionListener() {
+        BTN_42.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_42.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
+        BTN_42.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton43ActionPerformed(evt);
+                BTN_42ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton43);
-        jButton43.setBounds(84, 251, 68, 55);
+        jPanel2.add(BTN_42);
+        BTN_42.setBounds(84, 251, 68, 55);
 
-        jButton44.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton44.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
-        jButton44.addActionListener(new java.awt.event.ActionListener() {
+        BTN_43.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_43.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
+        BTN_43.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton44ActionPerformed(evt);
+                BTN_43ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton44);
-        jButton44.setBounds(158, 251, 68, 55);
+        jPanel2.add(BTN_43);
+        BTN_43.setBounds(158, 251, 68, 55);
 
-        jButton45.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton45.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
-        jButton45.addActionListener(new java.awt.event.ActionListener() {
+        BTN_44.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_44.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
+        BTN_44.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton45ActionPerformed(evt);
+                BTN_44ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton45);
-        jButton45.setBounds(232, 251, 68, 55);
+        jPanel2.add(BTN_44);
+        BTN_44.setBounds(232, 251, 68, 55);
 
-        jButton46.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton46.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
-        jButton46.addActionListener(new java.awt.event.ActionListener() {
+        BTN_45.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_45.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
+        BTN_45.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton46ActionPerformed(evt);
+                BTN_45ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton46);
-        jButton46.setBounds(306, 251, 68, 55);
+        jPanel2.add(BTN_45);
+        BTN_45.setBounds(306, 251, 68, 55);
 
-        jButton47.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton47.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
-        jButton47.addActionListener(new java.awt.event.ActionListener() {
+        BTN_46.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_46.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
+        BTN_46.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton47ActionPerformed(evt);
+                BTN_46ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton47);
-        jButton47.setBounds(380, 251, 68, 55);
+        jPanel2.add(BTN_46);
+        BTN_46.setBounds(380, 251, 68, 55);
 
-        jButton48.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton48.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
-        jButton48.addActionListener(new java.awt.event.ActionListener() {
+        BTN_47.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_47.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
+        BTN_47.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton48ActionPerformed(evt);
+                BTN_47ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton48);
-        jButton48.setBounds(454, 251, 68, 55);
+        jPanel2.add(BTN_47);
+        BTN_47.setBounds(454, 251, 68, 55);
 
-        jButton49.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton49.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
-        jButton49.addActionListener(new java.awt.event.ActionListener() {
+        BTN_48.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_48.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
+        BTN_48.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton49ActionPerformed(evt);
+                BTN_48ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton49);
-        jButton49.setBounds(528, 251, 68, 55);
+        jPanel2.add(BTN_48);
+        BTN_48.setBounds(528, 251, 68, 55);
 
-        jButton50.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton50.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
-        jButton50.addActionListener(new java.awt.event.ActionListener() {
+        BTN_49.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_49.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
+        BTN_49.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton50ActionPerformed(evt);
+                BTN_49ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton50);
-        jButton50.setBounds(602, 251, 68, 55);
+        jPanel2.add(BTN_49);
+        BTN_49.setBounds(602, 251, 68, 55);
 
-        jButton51.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton51.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
-        jButton51.addActionListener(new java.awt.event.ActionListener() {
+        BTN_50.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_50.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
+        BTN_50.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton51ActionPerformed(evt);
+                BTN_50ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton51);
-        jButton51.setBounds(676, 251, 68, 55);
+        jPanel2.add(BTN_50);
+        BTN_50.setBounds(676, 251, 68, 55);
 
-        jButton52.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton52.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
-        jButton52.addActionListener(new java.awt.event.ActionListener() {
+        BTN_51.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_51.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
+        BTN_51.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton52ActionPerformed(evt);
+                BTN_51ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton52);
-        jButton52.setBounds(10, 312, 68, 55);
+        jPanel2.add(BTN_51);
+        BTN_51.setBounds(10, 312, 68, 55);
 
-        jButton53.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton53.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
-        jButton53.addActionListener(new java.awt.event.ActionListener() {
+        BTN_52.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_52.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
+        BTN_52.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton53ActionPerformed(evt);
+                BTN_52ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton53);
-        jButton53.setBounds(84, 312, 68, 55);
+        jPanel2.add(BTN_52);
+        BTN_52.setBounds(84, 312, 68, 55);
 
-        jButton54.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton54.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
-        jButton54.addActionListener(new java.awt.event.ActionListener() {
+        BTN_53.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_53.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
+        BTN_53.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton54ActionPerformed(evt);
+                BTN_53ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton54);
-        jButton54.setBounds(158, 312, 68, 55);
+        jPanel2.add(BTN_53);
+        BTN_53.setBounds(158, 312, 68, 55);
 
-        jButton55.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton55.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
-        jButton55.addActionListener(new java.awt.event.ActionListener() {
+        BTN_54.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_54.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
+        BTN_54.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton55ActionPerformed(evt);
+                BTN_54ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton55);
-        jButton55.setBounds(232, 312, 68, 55);
+        jPanel2.add(BTN_54);
+        BTN_54.setBounds(232, 312, 68, 55);
 
-        jButton56.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton56.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
-        jButton56.addActionListener(new java.awt.event.ActionListener() {
+        BTN_55.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_55.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
+        BTN_55.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton56ActionPerformed(evt);
+                BTN_55ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton56);
-        jButton56.setBounds(306, 312, 68, 55);
+        jPanel2.add(BTN_55);
+        BTN_55.setBounds(306, 312, 68, 55);
 
-        jButton57.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton57.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
-        jButton57.addActionListener(new java.awt.event.ActionListener() {
+        BTN_56.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_56.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
+        BTN_56.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton57ActionPerformed(evt);
+                BTN_56ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton57);
-        jButton57.setBounds(380, 312, 68, 55);
+        jPanel2.add(BTN_56);
+        BTN_56.setBounds(380, 312, 68, 55);
 
-        jButton58.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton58.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
-        jButton58.addActionListener(new java.awt.event.ActionListener() {
+        BTN_57.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_57.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
+        BTN_57.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton58ActionPerformed(evt);
+                BTN_57ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton58);
-        jButton58.setBounds(454, 312, 68, 55);
+        jPanel2.add(BTN_57);
+        BTN_57.setBounds(454, 312, 68, 55);
 
-        jButton59.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton59.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
-        jButton59.addActionListener(new java.awt.event.ActionListener() {
+        BTN_58.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_58.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
+        BTN_58.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton59ActionPerformed(evt);
+                BTN_58ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton59);
-        jButton59.setBounds(528, 312, 68, 55);
+        jPanel2.add(BTN_58);
+        BTN_58.setBounds(528, 312, 68, 55);
 
-        jButton60.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton60.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
-        jButton60.addActionListener(new java.awt.event.ActionListener() {
+        BTN_59.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_59.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
+        BTN_59.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton60ActionPerformed(evt);
+                BTN_59ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton60);
-        jButton60.setBounds(602, 312, 68, 55);
+        jPanel2.add(BTN_59);
+        BTN_59.setBounds(602, 312, 68, 55);
 
-        jButton61.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton61.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
-        jButton61.addActionListener(new java.awt.event.ActionListener() {
+        BTN_60.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_60.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
+        BTN_60.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton61ActionPerformed(evt);
+                BTN_60ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton61);
-        jButton61.setBounds(676, 312, 68, 55);
+        jPanel2.add(BTN_60);
+        BTN_60.setBounds(676, 312, 68, 55);
 
-        jButton62.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton62.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
-        jButton62.addActionListener(new java.awt.event.ActionListener() {
+        BTN_61.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_61.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
+        BTN_61.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton62ActionPerformed(evt);
+                BTN_61ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton62);
-        jButton62.setBounds(10, 373, 68, 55);
+        jPanel2.add(BTN_61);
+        BTN_61.setBounds(10, 373, 68, 55);
 
-        jButton63.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton63.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
-        jButton63.addActionListener(new java.awt.event.ActionListener() {
+        BTN_62.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_62.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
+        BTN_62.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton63ActionPerformed(evt);
+                BTN_62ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton63);
-        jButton63.setBounds(84, 373, 68, 55);
+        jPanel2.add(BTN_62);
+        BTN_62.setBounds(84, 373, 68, 55);
 
-        jButton64.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton64.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
-        jButton64.addActionListener(new java.awt.event.ActionListener() {
+        BTN_63.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_63.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
+        BTN_63.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton64ActionPerformed(evt);
+                BTN_63ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton64);
-        jButton64.setBounds(158, 373, 68, 55);
+        jPanel2.add(BTN_63);
+        BTN_63.setBounds(158, 373, 68, 55);
 
-        jButton65.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton65.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
-        jButton65.addActionListener(new java.awt.event.ActionListener() {
+        BTN_64.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_64.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
+        BTN_64.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton65ActionPerformed(evt);
+                BTN_64ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton65);
-        jButton65.setBounds(232, 373, 68, 55);
+        jPanel2.add(BTN_64);
+        BTN_64.setBounds(232, 373, 68, 55);
 
-        jButton66.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton66.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
-        jButton66.addActionListener(new java.awt.event.ActionListener() {
+        BTN_65.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_65.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
+        BTN_65.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton66ActionPerformed(evt);
+                BTN_65ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton66);
-        jButton66.setBounds(306, 373, 68, 55);
+        jPanel2.add(BTN_65);
+        BTN_65.setBounds(306, 373, 68, 55);
 
-        jButton67.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton67.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
-        jButton67.addActionListener(new java.awt.event.ActionListener() {
+        BTN_66.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_66.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
+        BTN_66.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton67ActionPerformed(evt);
+                BTN_66ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton67);
-        jButton67.setBounds(380, 373, 68, 55);
+        jPanel2.add(BTN_66);
+        BTN_66.setBounds(380, 373, 68, 55);
 
-        jButton68.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton68.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
-        jButton68.addActionListener(new java.awt.event.ActionListener() {
+        BTN_67.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_67.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
+        BTN_67.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton68ActionPerformed(evt);
+                BTN_67ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton68);
-        jButton68.setBounds(454, 373, 68, 55);
+        jPanel2.add(BTN_67);
+        BTN_67.setBounds(454, 373, 68, 55);
 
-        jButton69.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton69.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
-        jButton69.addActionListener(new java.awt.event.ActionListener() {
+        BTN_68.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_68.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
+        BTN_68.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton69ActionPerformed(evt);
+                BTN_68ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton69);
-        jButton69.setBounds(528, 373, 68, 55);
+        jPanel2.add(BTN_68);
+        BTN_68.setBounds(528, 373, 68, 55);
 
-        jButton70.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton70.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
-        jButton70.addActionListener(new java.awt.event.ActionListener() {
+        BTN_69.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_69.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
+        BTN_69.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton70ActionPerformed(evt);
+                BTN_69ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton70);
-        jButton70.setBounds(602, 373, 68, 55);
+        jPanel2.add(BTN_69);
+        BTN_69.setBounds(602, 373, 68, 55);
 
-        jButton71.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton71.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
-        jButton71.addActionListener(new java.awt.event.ActionListener() {
+        BTN_70.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_70.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
+        BTN_70.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton71ActionPerformed(evt);
+                BTN_70ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton71);
-        jButton71.setBounds(676, 373, 68, 55);
+        jPanel2.add(BTN_70);
+        BTN_70.setBounds(676, 373, 68, 55);
 
-        jButton72.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton72.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
-        jButton72.addActionListener(new java.awt.event.ActionListener() {
+        BTN_71.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_71.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
+        BTN_71.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton72ActionPerformed(evt);
+                BTN_71ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton72);
-        jButton72.setBounds(10, 434, 68, 55);
+        jPanel2.add(BTN_71);
+        BTN_71.setBounds(10, 434, 68, 55);
 
-        jButton73.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton73.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
-        jButton73.addActionListener(new java.awt.event.ActionListener() {
+        BTN_72.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_72.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
+        BTN_72.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton73ActionPerformed(evt);
+                BTN_72ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton73);
-        jButton73.setBounds(84, 434, 68, 55);
+        jPanel2.add(BTN_72);
+        BTN_72.setBounds(84, 434, 68, 55);
 
-        jButton74.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton74.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
-        jButton74.addActionListener(new java.awt.event.ActionListener() {
+        BTN_73.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_73.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
+        BTN_73.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton74ActionPerformed(evt);
+                BTN_73ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton74);
-        jButton74.setBounds(158, 434, 68, 55);
+        jPanel2.add(BTN_73);
+        BTN_73.setBounds(158, 434, 68, 55);
 
-        jButton75.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton75.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
-        jButton75.addActionListener(new java.awt.event.ActionListener() {
+        BTN_74.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_74.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
+        BTN_74.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton75ActionPerformed(evt);
+                BTN_74ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton75);
-        jButton75.setBounds(232, 434, 68, 55);
+        jPanel2.add(BTN_74);
+        BTN_74.setBounds(232, 434, 68, 55);
 
-        jButton76.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton76.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
-        jButton76.addActionListener(new java.awt.event.ActionListener() {
+        BTN_75.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_75.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
+        BTN_75.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton76ActionPerformed(evt);
+                BTN_75ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton76);
-        jButton76.setBounds(306, 434, 68, 55);
+        jPanel2.add(BTN_75);
+        BTN_75.setBounds(306, 434, 68, 55);
 
-        jButton77.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton77.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
-        jButton77.addActionListener(new java.awt.event.ActionListener() {
+        BTN_76.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_76.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
+        BTN_76.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton77ActionPerformed(evt);
+                BTN_76ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton77);
-        jButton77.setBounds(380, 434, 68, 55);
+        jPanel2.add(BTN_76);
+        BTN_76.setBounds(380, 434, 68, 55);
 
-        jButton78.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton78.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
-        jButton78.addActionListener(new java.awt.event.ActionListener() {
+        BTN_77.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_77.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
+        BTN_77.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton78ActionPerformed(evt);
+                BTN_77ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton78);
-        jButton78.setBounds(454, 434, 68, 55);
+        jPanel2.add(BTN_77);
+        BTN_77.setBounds(454, 434, 68, 55);
 
-        jButton79.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton79.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
-        jButton79.addActionListener(new java.awt.event.ActionListener() {
+        BTN_78.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_78.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
+        BTN_78.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton79ActionPerformed(evt);
+                BTN_78ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton79);
-        jButton79.setBounds(528, 434, 68, 55);
+        jPanel2.add(BTN_78);
+        BTN_78.setBounds(528, 434, 68, 55);
 
-        jButton80.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton80.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
-        jButton80.addActionListener(new java.awt.event.ActionListener() {
+        BTN_79.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_79.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
+        BTN_79.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton80ActionPerformed(evt);
+                BTN_79ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton80);
-        jButton80.setBounds(602, 434, 68, 55);
+        jPanel2.add(BTN_79);
+        BTN_79.setBounds(602, 434, 68, 55);
 
-        jButton81.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton81.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
-        jButton81.addActionListener(new java.awt.event.ActionListener() {
+        BTN_80.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_80.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
+        BTN_80.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton81ActionPerformed(evt);
+                BTN_80ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton81);
-        jButton81.setBounds(676, 434, 68, 55);
+        jPanel2.add(BTN_80);
+        BTN_80.setBounds(676, 434, 68, 55);
 
-        jButton82.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton82.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
-        jButton82.addActionListener(new java.awt.event.ActionListener() {
+        BTN_81.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_81.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
+        BTN_81.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton82ActionPerformed(evt);
+                BTN_81ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton82);
-        jButton82.setBounds(10, 495, 68, 55);
+        jPanel2.add(BTN_81);
+        BTN_81.setBounds(10, 495, 68, 55);
 
-        jButton83.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton83.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
-        jButton83.addActionListener(new java.awt.event.ActionListener() {
+        BTN_82.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_82.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
+        BTN_82.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton83ActionPerformed(evt);
+                BTN_82ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton83);
-        jButton83.setBounds(84, 495, 68, 55);
+        jPanel2.add(BTN_82);
+        BTN_82.setBounds(84, 495, 68, 55);
 
-        jButton84.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton84.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
-        jButton84.addActionListener(new java.awt.event.ActionListener() {
+        BTN_83.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_83.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
+        BTN_83.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton84ActionPerformed(evt);
+                BTN_83ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton84);
-        jButton84.setBounds(158, 495, 68, 55);
+        jPanel2.add(BTN_83);
+        BTN_83.setBounds(158, 495, 68, 55);
 
-        jButton85.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton85.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
-        jButton85.addActionListener(new java.awt.event.ActionListener() {
+        BTN_84.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_84.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
+        BTN_84.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton85ActionPerformed(evt);
+                BTN_84ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton85);
-        jButton85.setBounds(232, 495, 68, 55);
+        jPanel2.add(BTN_84);
+        BTN_84.setBounds(232, 495, 68, 55);
 
-        jButton86.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton86.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
-        jButton86.addActionListener(new java.awt.event.ActionListener() {
+        BTN_85.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_85.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
+        BTN_85.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton86ActionPerformed(evt);
+                BTN_85ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton86);
-        jButton86.setBounds(306, 495, 68, 55);
+        jPanel2.add(BTN_85);
+        BTN_85.setBounds(306, 495, 68, 55);
 
-        jButton87.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton87.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
-        jButton87.addActionListener(new java.awt.event.ActionListener() {
+        BTN_86.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_86.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
+        BTN_86.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton87ActionPerformed(evt);
+                BTN_86ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton87);
-        jButton87.setBounds(380, 495, 68, 55);
+        jPanel2.add(BTN_86);
+        BTN_86.setBounds(380, 495, 68, 55);
 
-        jButton88.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton88.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
-        jButton88.addActionListener(new java.awt.event.ActionListener() {
+        BTN_87.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_87.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
+        BTN_87.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton88ActionPerformed(evt);
+                BTN_87ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton88);
-        jButton88.setBounds(454, 495, 68, 55);
+        jPanel2.add(BTN_87);
+        BTN_87.setBounds(454, 495, 68, 55);
 
-        jButton89.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton89.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
-        jButton89.addActionListener(new java.awt.event.ActionListener() {
+        BTN_88.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_88.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
+        BTN_88.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton89ActionPerformed(evt);
+                BTN_88ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton89);
-        jButton89.setBounds(528, 495, 68, 55);
+        jPanel2.add(BTN_88);
+        BTN_88.setBounds(528, 495, 68, 55);
 
-        jButton90.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton90.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
-        jButton90.addActionListener(new java.awt.event.ActionListener() {
+        BTN_89.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_89.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
+        BTN_89.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton90ActionPerformed(evt);
+                BTN_89ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton90);
-        jButton90.setBounds(602, 495, 68, 55);
+        jPanel2.add(BTN_89);
+        BTN_89.setBounds(602, 495, 68, 55);
 
-        jButton91.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton91.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
-        jButton91.addActionListener(new java.awt.event.ActionListener() {
+        BTN_90.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_90.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 153, 0), 2, true));
+        BTN_90.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton91ActionPerformed(evt);
+                BTN_90ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton91);
-        jButton91.setBounds(676, 495, 68, 55);
+        jPanel2.add(BTN_90);
+        BTN_90.setBounds(676, 495, 68, 55);
 
-        jButton92.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton92.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 153, 0), 2));
-        jButton92.addActionListener(new java.awt.event.ActionListener() {
+        BTN_91.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_91.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 153, 0), 2));
+        BTN_91.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton92ActionPerformed(evt);
+                BTN_91ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton92);
-        jButton92.setBounds(10, 556, 68, 55);
+        jPanel2.add(BTN_91);
+        BTN_91.setBounds(10, 556, 68, 55);
 
-        jButton93.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton93.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 153, 0), 2));
-        jButton93.addActionListener(new java.awt.event.ActionListener() {
+        BTN_92.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_92.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 153, 0), 2));
+        BTN_92.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton93ActionPerformed(evt);
+                BTN_92ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton93);
-        jButton93.setBounds(84, 556, 68, 55);
+        jPanel2.add(BTN_92);
+        BTN_92.setBounds(84, 556, 68, 55);
 
-        jButton94.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton94.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 153, 0), 2));
-        jButton94.addActionListener(new java.awt.event.ActionListener() {
+        BTN_93.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_93.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 153, 0), 2));
+        BTN_93.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton94ActionPerformed(evt);
+                BTN_93ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton94);
-        jButton94.setBounds(158, 556, 68, 55);
+        jPanel2.add(BTN_93);
+        BTN_93.setBounds(158, 556, 68, 55);
 
-        jButton95.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton95.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 153, 0), 2));
-        jButton95.addActionListener(new java.awt.event.ActionListener() {
+        BTN_94.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_94.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 153, 0), 2));
+        BTN_94.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton95ActionPerformed(evt);
+                BTN_94ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton95);
-        jButton95.setBounds(232, 556, 68, 55);
+        jPanel2.add(BTN_94);
+        BTN_94.setBounds(232, 556, 68, 55);
 
-        jButton96.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton96.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 153, 0), 2));
-        jButton96.addActionListener(new java.awt.event.ActionListener() {
+        BTN_95.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_95.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 153, 0), 2));
+        BTN_95.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton96ActionPerformed(evt);
+                BTN_95ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton96);
-        jButton96.setBounds(306, 556, 68, 55);
+        jPanel2.add(BTN_95);
+        BTN_95.setBounds(306, 556, 68, 55);
 
-        jButton97.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton97.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 153, 0), 2));
-        jButton97.addActionListener(new java.awt.event.ActionListener() {
+        BTN_96.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_96.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 153, 0), 2));
+        BTN_96.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton97ActionPerformed(evt);
+                BTN_96ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton97);
-        jButton97.setBounds(380, 556, 68, 55);
+        jPanel2.add(BTN_96);
+        BTN_96.setBounds(380, 556, 68, 55);
 
-        jButton98.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton98.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 153, 0), 2));
-        jButton98.addActionListener(new java.awt.event.ActionListener() {
+        BTN_97.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_97.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 153, 0), 2));
+        BTN_97.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton98ActionPerformed(evt);
+                BTN_97ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton98);
-        jButton98.setBounds(454, 556, 68, 55);
+        jPanel2.add(BTN_97);
+        BTN_97.setBounds(454, 556, 68, 55);
 
-        jButton99.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton99.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 153, 0), 2));
-        jButton99.addActionListener(new java.awt.event.ActionListener() {
+        BTN_98.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_98.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 153, 0), 2));
+        BTN_98.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton99ActionPerformed(evt);
+                BTN_98ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton99);
-        jButton99.setBounds(528, 556, 68, 55);
+        jPanel2.add(BTN_98);
+        BTN_98.setBounds(528, 556, 68, 55);
 
-        jButton100.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton100.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 153, 0), 2));
-        jButton100.addActionListener(new java.awt.event.ActionListener() {
+        BTN_99.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_99.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 153, 0), 2));
+        BTN_99.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton100ActionPerformed(evt);
+                BTN_99ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton100);
-        jButton100.setBounds(602, 556, 68, 55);
+        jPanel2.add(BTN_99);
+        BTN_99.setBounds(602, 556, 68, 55);
 
-        jButton101.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton101.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 153, 0), 2));
-        jButton101.addActionListener(new java.awt.event.ActionListener() {
+        BTN_100.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_100.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 153, 0), 2));
+        BTN_100.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton101ActionPerformed(evt);
+                BTN_100ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton101);
-        jButton101.setBounds(676, 556, 68, 55);
+        jPanel2.add(BTN_100);
+        BTN_100.setBounds(676, 556, 68, 55);
 
         JB_nuevoJuego_.setBackground(new java.awt.Color(0, 0, 0));
         JB_nuevoJuego_.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 36)); // NOI18N
@@ -1321,405 +1318,405 @@ public class Oceano extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void BTN_01ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_01ActionPerformed
+    private void BTN_1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_1ActionPerformed
+        
+    }//GEN-LAST:event_BTN_1ActionPerformed
 
-    }//GEN-LAST:event_BTN_01ActionPerformed
-
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+    private void BTN_7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_7ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton3ActionPerformed
+    }//GEN-LAST:event_BTN_7ActionPerformed
 
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+    private void BTN_6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_6ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton4ActionPerformed
+    }//GEN-LAST:event_BTN_6ActionPerformed
 
-    private void BTN_02ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_02ActionPerformed
+    private void BTN_2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_2ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_BTN_02ActionPerformed
+    }//GEN-LAST:event_BTN_2ActionPerformed
 
-    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+    private void BTN_10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_10ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton6ActionPerformed
+    }//GEN-LAST:event_BTN_10ActionPerformed
 
-    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
+    private void BTN_3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_3ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton7ActionPerformed
+    }//GEN-LAST:event_BTN_3ActionPerformed
 
-    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
+    private void BTN_4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_4ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton8ActionPerformed
+    }//GEN-LAST:event_BTN_4ActionPerformed
 
-    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
+    private void BTN_5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_5ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton9ActionPerformed
+    }//GEN-LAST:event_BTN_5ActionPerformed
 
-    private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
+    private void BTN_8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_8ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton10ActionPerformed
+    }//GEN-LAST:event_BTN_8ActionPerformed
 
-    private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
+    private void BTN_9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_9ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton11ActionPerformed
+    }//GEN-LAST:event_BTN_9ActionPerformed
 
-    private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
+    private void BTN_11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_11ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton12ActionPerformed
+    }//GEN-LAST:event_BTN_11ActionPerformed
 
-    private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
+    private void BTN_12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_12ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton13ActionPerformed
+    }//GEN-LAST:event_BTN_12ActionPerformed
 
-    private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
+    private void BTN_13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_13ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton14ActionPerformed
+    }//GEN-LAST:event_BTN_13ActionPerformed
 
-    private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton15ActionPerformed
+    private void BTN_14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_14ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton15ActionPerformed
+    }//GEN-LAST:event_BTN_14ActionPerformed
 
-    private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
+    private void BTN_15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_15ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton16ActionPerformed
+    }//GEN-LAST:event_BTN_15ActionPerformed
 
-    private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
+    private void BTN_16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_16ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton17ActionPerformed
+    }//GEN-LAST:event_BTN_16ActionPerformed
 
-    private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
+    private void BTN_17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_17ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton18ActionPerformed
+    }//GEN-LAST:event_BTN_17ActionPerformed
 
-    private void jButton19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton19ActionPerformed
+    private void BTN_18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_18ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton19ActionPerformed
+    }//GEN-LAST:event_BTN_18ActionPerformed
 
-    private void jButton20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton20ActionPerformed
+    private void BTN_19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_19ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton20ActionPerformed
+    }//GEN-LAST:event_BTN_19ActionPerformed
 
-    private void jButton21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton21ActionPerformed
+    private void BTN_20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_20ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton21ActionPerformed
+    }//GEN-LAST:event_BTN_20ActionPerformed
 
-    private void jButton22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton22ActionPerformed
+    private void BTN_21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_21ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton22ActionPerformed
+    }//GEN-LAST:event_BTN_21ActionPerformed
 
-    private void jButton23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton23ActionPerformed
+    private void BTN_22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_22ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton23ActionPerformed
+    }//GEN-LAST:event_BTN_22ActionPerformed
 
-    private void jButton24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton24ActionPerformed
+    private void BTN_23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_23ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton24ActionPerformed
+    }//GEN-LAST:event_BTN_23ActionPerformed
 
-    private void jButton25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton25ActionPerformed
+    private void BTN_24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_24ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton25ActionPerformed
+    }//GEN-LAST:event_BTN_24ActionPerformed
 
-    private void jButton26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton26ActionPerformed
+    private void BTN_25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_25ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton26ActionPerformed
+    }//GEN-LAST:event_BTN_25ActionPerformed
 
-    private void jButton27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton27ActionPerformed
+    private void BTN_26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_26ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton27ActionPerformed
+    }//GEN-LAST:event_BTN_26ActionPerformed
 
-    private void jButton28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton28ActionPerformed
+    private void BTN_27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_27ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton28ActionPerformed
+    }//GEN-LAST:event_BTN_27ActionPerformed
 
-    private void jButton29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton29ActionPerformed
+    private void BTN_28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_28ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton29ActionPerformed
+    }//GEN-LAST:event_BTN_28ActionPerformed
 
-    private void jButton30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton30ActionPerformed
+    private void BTN_29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_29ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton30ActionPerformed
+    }//GEN-LAST:event_BTN_29ActionPerformed
 
-    private void jButton31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton31ActionPerformed
+    private void BTN_30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_30ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton31ActionPerformed
+    }//GEN-LAST:event_BTN_30ActionPerformed
 
-    private void jButton32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton32ActionPerformed
+    private void BTN_31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_31ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton32ActionPerformed
+    }//GEN-LAST:event_BTN_31ActionPerformed
 
-    private void jButton33ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton33ActionPerformed
+    private void BTN_32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_32ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton33ActionPerformed
+    }//GEN-LAST:event_BTN_32ActionPerformed
 
-    private void jButton34ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton34ActionPerformed
+    private void BTN_33ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_33ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton34ActionPerformed
+    }//GEN-LAST:event_BTN_33ActionPerformed
 
-    private void jButton35ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton35ActionPerformed
+    private void BTN_34ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_34ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton35ActionPerformed
+    }//GEN-LAST:event_BTN_34ActionPerformed
 
-    private void jButton36ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton36ActionPerformed
+    private void BTN_35ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_35ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton36ActionPerformed
+    }//GEN-LAST:event_BTN_35ActionPerformed
 
-    private void jButton37ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton37ActionPerformed
+    private void BTN_36ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_36ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton37ActionPerformed
+    }//GEN-LAST:event_BTN_36ActionPerformed
 
-    private void jButton38ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton38ActionPerformed
+    private void BTN_37ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_37ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton38ActionPerformed
+    }//GEN-LAST:event_BTN_37ActionPerformed
 
-    private void jButton39ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton39ActionPerformed
+    private void BTN_38ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_38ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton39ActionPerformed
+    }//GEN-LAST:event_BTN_38ActionPerformed
 
-    private void jButton40ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton40ActionPerformed
+    private void BTN_39ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_39ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton40ActionPerformed
+    }//GEN-LAST:event_BTN_39ActionPerformed
 
-    private void jButton41ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton41ActionPerformed
+    private void BTN_40ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_40ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton41ActionPerformed
+    }//GEN-LAST:event_BTN_40ActionPerformed
 
-    private void jButton42ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton42ActionPerformed
+    private void BTN_41ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_41ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton42ActionPerformed
+    }//GEN-LAST:event_BTN_41ActionPerformed
 
-    private void jButton43ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton43ActionPerformed
+    private void BTN_42ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_42ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton43ActionPerformed
+    }//GEN-LAST:event_BTN_42ActionPerformed
 
-    private void jButton44ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton44ActionPerformed
+    private void BTN_43ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_43ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton44ActionPerformed
+    }//GEN-LAST:event_BTN_43ActionPerformed
 
-    private void jButton45ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton45ActionPerformed
+    private void BTN_44ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_44ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton45ActionPerformed
+    }//GEN-LAST:event_BTN_44ActionPerformed
 
-    private void jButton46ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton46ActionPerformed
+    private void BTN_45ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_45ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton46ActionPerformed
+    }//GEN-LAST:event_BTN_45ActionPerformed
 
-    private void jButton47ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton47ActionPerformed
+    private void BTN_46ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_46ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton47ActionPerformed
+    }//GEN-LAST:event_BTN_46ActionPerformed
 
-    private void jButton48ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton48ActionPerformed
+    private void BTN_47ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_47ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton48ActionPerformed
+    }//GEN-LAST:event_BTN_47ActionPerformed
 
-    private void jButton49ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton49ActionPerformed
+    private void BTN_48ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_48ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton49ActionPerformed
+    }//GEN-LAST:event_BTN_48ActionPerformed
 
-    private void jButton50ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton50ActionPerformed
+    private void BTN_49ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_49ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton50ActionPerformed
+    }//GEN-LAST:event_BTN_49ActionPerformed
 
-    private void jButton51ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton51ActionPerformed
+    private void BTN_50ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_50ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton51ActionPerformed
+    }//GEN-LAST:event_BTN_50ActionPerformed
 
-    private void jButton52ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton52ActionPerformed
+    private void BTN_51ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_51ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton52ActionPerformed
+    }//GEN-LAST:event_BTN_51ActionPerformed
 
-    private void jButton53ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton53ActionPerformed
+    private void BTN_52ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_52ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton53ActionPerformed
+    }//GEN-LAST:event_BTN_52ActionPerformed
 
-    private void jButton54ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton54ActionPerformed
+    private void BTN_53ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_53ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton54ActionPerformed
+    }//GEN-LAST:event_BTN_53ActionPerformed
 
-    private void jButton55ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton55ActionPerformed
+    private void BTN_54ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_54ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton55ActionPerformed
+    }//GEN-LAST:event_BTN_54ActionPerformed
 
-    private void jButton56ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton56ActionPerformed
+    private void BTN_55ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_55ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton56ActionPerformed
+    }//GEN-LAST:event_BTN_55ActionPerformed
 
-    private void jButton57ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton57ActionPerformed
+    private void BTN_56ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_56ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton57ActionPerformed
+    }//GEN-LAST:event_BTN_56ActionPerformed
 
-    private void jButton58ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton58ActionPerformed
+    private void BTN_57ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_57ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton58ActionPerformed
+    }//GEN-LAST:event_BTN_57ActionPerformed
 
-    private void jButton59ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton59ActionPerformed
+    private void BTN_58ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_58ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton59ActionPerformed
+    }//GEN-LAST:event_BTN_58ActionPerformed
 
-    private void jButton60ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton60ActionPerformed
+    private void BTN_59ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_59ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton60ActionPerformed
+    }//GEN-LAST:event_BTN_59ActionPerformed
 
-    private void jButton61ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton61ActionPerformed
+    private void BTN_60ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_60ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton61ActionPerformed
+    }//GEN-LAST:event_BTN_60ActionPerformed
 
-    private void jButton62ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton62ActionPerformed
+    private void BTN_61ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_61ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton62ActionPerformed
+    }//GEN-LAST:event_BTN_61ActionPerformed
 
-    private void jButton63ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton63ActionPerformed
+    private void BTN_62ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_62ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton63ActionPerformed
+    }//GEN-LAST:event_BTN_62ActionPerformed
 
-    private void jButton64ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton64ActionPerformed
+    private void BTN_63ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_63ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton64ActionPerformed
+    }//GEN-LAST:event_BTN_63ActionPerformed
 
-    private void jButton65ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton65ActionPerformed
+    private void BTN_64ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_64ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton65ActionPerformed
+    }//GEN-LAST:event_BTN_64ActionPerformed
 
-    private void jButton66ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton66ActionPerformed
+    private void BTN_65ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_65ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton66ActionPerformed
+    }//GEN-LAST:event_BTN_65ActionPerformed
 
-    private void jButton67ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton67ActionPerformed
+    private void BTN_66ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_66ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton67ActionPerformed
+    }//GEN-LAST:event_BTN_66ActionPerformed
 
-    private void jButton68ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton68ActionPerformed
+    private void BTN_67ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_67ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton68ActionPerformed
+    }//GEN-LAST:event_BTN_67ActionPerformed
 
-    private void jButton69ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton69ActionPerformed
+    private void BTN_68ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_68ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton69ActionPerformed
+    }//GEN-LAST:event_BTN_68ActionPerformed
 
-    private void jButton70ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton70ActionPerformed
+    private void BTN_69ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_69ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton70ActionPerformed
+    }//GEN-LAST:event_BTN_69ActionPerformed
 
-    private void jButton71ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton71ActionPerformed
+    private void BTN_70ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_70ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton71ActionPerformed
+    }//GEN-LAST:event_BTN_70ActionPerformed
 
-    private void jButton72ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton72ActionPerformed
+    private void BTN_71ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_71ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton72ActionPerformed
+    }//GEN-LAST:event_BTN_71ActionPerformed
 
-    private void jButton73ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton73ActionPerformed
+    private void BTN_72ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_72ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton73ActionPerformed
+    }//GEN-LAST:event_BTN_72ActionPerformed
 
-    private void jButton74ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton74ActionPerformed
+    private void BTN_73ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_73ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton74ActionPerformed
+    }//GEN-LAST:event_BTN_73ActionPerformed
 
-    private void jButton75ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton75ActionPerformed
+    private void BTN_74ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_74ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton75ActionPerformed
+    }//GEN-LAST:event_BTN_74ActionPerformed
 
-    private void jButton76ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton76ActionPerformed
+    private void BTN_75ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_75ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton76ActionPerformed
+    }//GEN-LAST:event_BTN_75ActionPerformed
 
-    private void jButton77ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton77ActionPerformed
+    private void BTN_76ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_76ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton77ActionPerformed
+    }//GEN-LAST:event_BTN_76ActionPerformed
 
-    private void jButton78ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton78ActionPerformed
+    private void BTN_77ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_77ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton78ActionPerformed
+    }//GEN-LAST:event_BTN_77ActionPerformed
 
-    private void jButton79ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton79ActionPerformed
+    private void BTN_78ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_78ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton79ActionPerformed
+    }//GEN-LAST:event_BTN_78ActionPerformed
 
-    private void jButton80ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton80ActionPerformed
+    private void BTN_79ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_79ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton80ActionPerformed
+    }//GEN-LAST:event_BTN_79ActionPerformed
 
-    private void jButton81ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton81ActionPerformed
+    private void BTN_80ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_80ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton81ActionPerformed
+    }//GEN-LAST:event_BTN_80ActionPerformed
 
-    private void jButton82ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton82ActionPerformed
+    private void BTN_81ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_81ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton82ActionPerformed
+    }//GEN-LAST:event_BTN_81ActionPerformed
 
-    private void jButton83ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton83ActionPerformed
+    private void BTN_82ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_82ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton83ActionPerformed
+    }//GEN-LAST:event_BTN_82ActionPerformed
 
-    private void jButton84ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton84ActionPerformed
+    private void BTN_83ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_83ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton84ActionPerformed
+    }//GEN-LAST:event_BTN_83ActionPerformed
 
-    private void jButton85ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton85ActionPerformed
+    private void BTN_84ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_84ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton85ActionPerformed
+    }//GEN-LAST:event_BTN_84ActionPerformed
 
-    private void jButton86ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton86ActionPerformed
+    private void BTN_85ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_85ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton86ActionPerformed
+    }//GEN-LAST:event_BTN_85ActionPerformed
 
-    private void jButton87ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton87ActionPerformed
+    private void BTN_86ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_86ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton87ActionPerformed
+    }//GEN-LAST:event_BTN_86ActionPerformed
 
-    private void jButton88ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton88ActionPerformed
+    private void BTN_87ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_87ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton88ActionPerformed
+    }//GEN-LAST:event_BTN_87ActionPerformed
 
-    private void jButton89ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton89ActionPerformed
+    private void BTN_88ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_88ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton89ActionPerformed
+    }//GEN-LAST:event_BTN_88ActionPerformed
 
-    private void jButton90ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton90ActionPerformed
+    private void BTN_89ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_89ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton90ActionPerformed
+    }//GEN-LAST:event_BTN_89ActionPerformed
 
-    private void jButton91ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton91ActionPerformed
+    private void BTN_90ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_90ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton91ActionPerformed
+    }//GEN-LAST:event_BTN_90ActionPerformed
 
-    private void jButton92ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton92ActionPerformed
+    private void BTN_91ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_91ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton92ActionPerformed
+    }//GEN-LAST:event_BTN_91ActionPerformed
 
-    private void jButton93ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton93ActionPerformed
+    private void BTN_92ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_92ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton93ActionPerformed
+    }//GEN-LAST:event_BTN_92ActionPerformed
 
-    private void jButton94ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton94ActionPerformed
+    private void BTN_93ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_93ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton94ActionPerformed
+    }//GEN-LAST:event_BTN_93ActionPerformed
 
-    private void jButton95ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton95ActionPerformed
+    private void BTN_94ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_94ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton95ActionPerformed
+    }//GEN-LAST:event_BTN_94ActionPerformed
 
-    private void jButton96ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton96ActionPerformed
+    private void BTN_95ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_95ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton96ActionPerformed
+    }//GEN-LAST:event_BTN_95ActionPerformed
 
-    private void jButton97ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton97ActionPerformed
+    private void BTN_96ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_96ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton97ActionPerformed
+    }//GEN-LAST:event_BTN_96ActionPerformed
 
-    private void jButton98ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton98ActionPerformed
+    private void BTN_97ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_97ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton98ActionPerformed
+    }//GEN-LAST:event_BTN_97ActionPerformed
 
-    private void jButton99ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton99ActionPerformed
+    private void BTN_98ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_98ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton99ActionPerformed
+    }//GEN-LAST:event_BTN_98ActionPerformed
 
-    private void jButton100ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton100ActionPerformed
+    private void BTN_99ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_99ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton100ActionPerformed
+    }//GEN-LAST:event_BTN_99ActionPerformed
 
-    private void jButton101ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton101ActionPerformed
+    private void BTN_100ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_100ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton101ActionPerformed
+    }//GEN-LAST:event_BTN_100ActionPerformed
 
     private void JB_nuevoJuego_ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JB_nuevoJuego_ActionPerformed
         control.imprimir();
@@ -1773,109 +1770,111 @@ public class Oceano extends javax.swing.JFrame {
             }
         });
     }
+    
+    
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton BTN_01;
-    private javax.swing.JButton BTN_02;
+    private javax.swing.JButton BTN_1;
+    private javax.swing.JButton BTN_10;
+    private javax.swing.JButton BTN_100;
+    private javax.swing.JButton BTN_11;
+    private javax.swing.JButton BTN_12;
+    private javax.swing.JButton BTN_13;
+    private javax.swing.JButton BTN_14;
+    private javax.swing.JButton BTN_15;
+    private javax.swing.JButton BTN_16;
+    private javax.swing.JButton BTN_17;
+    private javax.swing.JButton BTN_18;
+    private javax.swing.JButton BTN_19;
+    private javax.swing.JButton BTN_2;
+    private javax.swing.JButton BTN_20;
+    private javax.swing.JButton BTN_21;
+    private javax.swing.JButton BTN_22;
+    private javax.swing.JButton BTN_23;
+    private javax.swing.JButton BTN_24;
+    private javax.swing.JButton BTN_25;
+    private javax.swing.JButton BTN_26;
+    private javax.swing.JButton BTN_27;
+    private javax.swing.JButton BTN_28;
+    private javax.swing.JButton BTN_29;
+    private javax.swing.JButton BTN_3;
+    private javax.swing.JButton BTN_30;
+    private javax.swing.JButton BTN_31;
+    private javax.swing.JButton BTN_32;
+    private javax.swing.JButton BTN_33;
+    private javax.swing.JButton BTN_34;
+    private javax.swing.JButton BTN_35;
+    private javax.swing.JButton BTN_36;
+    private javax.swing.JButton BTN_37;
+    private javax.swing.JButton BTN_38;
+    private javax.swing.JButton BTN_39;
+    private javax.swing.JButton BTN_4;
+    private javax.swing.JButton BTN_40;
+    private javax.swing.JButton BTN_41;
+    private javax.swing.JButton BTN_42;
+    private javax.swing.JButton BTN_43;
+    private javax.swing.JButton BTN_44;
+    private javax.swing.JButton BTN_45;
+    private javax.swing.JButton BTN_46;
+    private javax.swing.JButton BTN_47;
+    private javax.swing.JButton BTN_48;
+    private javax.swing.JButton BTN_49;
+    private javax.swing.JButton BTN_5;
+    private javax.swing.JButton BTN_50;
+    private javax.swing.JButton BTN_51;
+    private javax.swing.JButton BTN_52;
+    private javax.swing.JButton BTN_53;
+    private javax.swing.JButton BTN_54;
+    private javax.swing.JButton BTN_55;
+    private javax.swing.JButton BTN_56;
+    private javax.swing.JButton BTN_57;
+    private javax.swing.JButton BTN_58;
+    private javax.swing.JButton BTN_59;
+    private javax.swing.JButton BTN_6;
+    private javax.swing.JButton BTN_60;
+    private javax.swing.JButton BTN_61;
+    private javax.swing.JButton BTN_62;
+    private javax.swing.JButton BTN_63;
+    private javax.swing.JButton BTN_64;
+    private javax.swing.JButton BTN_65;
+    private javax.swing.JButton BTN_66;
+    private javax.swing.JButton BTN_67;
+    private javax.swing.JButton BTN_68;
+    private javax.swing.JButton BTN_69;
+    private javax.swing.JButton BTN_7;
+    private javax.swing.JButton BTN_70;
+    private javax.swing.JButton BTN_71;
+    private javax.swing.JButton BTN_72;
+    private javax.swing.JButton BTN_73;
+    private javax.swing.JButton BTN_74;
+    private javax.swing.JButton BTN_75;
+    private javax.swing.JButton BTN_76;
+    private javax.swing.JButton BTN_77;
+    private javax.swing.JButton BTN_78;
+    private javax.swing.JButton BTN_79;
+    private javax.swing.JButton BTN_8;
+    private javax.swing.JButton BTN_80;
+    private javax.swing.JButton BTN_81;
+    private javax.swing.JButton BTN_82;
+    private javax.swing.JButton BTN_83;
+    private javax.swing.JButton BTN_84;
+    private javax.swing.JButton BTN_85;
+    private javax.swing.JButton BTN_86;
+    private javax.swing.JButton BTN_87;
+    private javax.swing.JButton BTN_88;
+    private javax.swing.JButton BTN_89;
+    private javax.swing.JButton BTN_9;
+    private javax.swing.JButton BTN_90;
+    private javax.swing.JButton BTN_91;
+    private javax.swing.JButton BTN_92;
+    private javax.swing.JButton BTN_93;
+    private javax.swing.JButton BTN_94;
+    private javax.swing.JButton BTN_95;
+    private javax.swing.JButton BTN_96;
+    private javax.swing.JButton BTN_97;
+    private javax.swing.JButton BTN_98;
+    private javax.swing.JButton BTN_99;
     private javax.swing.JButton JB_nuevoJuego_;
-    private javax.swing.JButton jButton10;
-    private javax.swing.JButton jButton100;
-    private javax.swing.JButton jButton101;
-    private javax.swing.JButton jButton11;
-    private javax.swing.JButton jButton12;
-    private javax.swing.JButton jButton13;
-    private javax.swing.JButton jButton14;
-    private javax.swing.JButton jButton15;
-    private javax.swing.JButton jButton16;
-    private javax.swing.JButton jButton17;
-    private javax.swing.JButton jButton18;
-    private javax.swing.JButton jButton19;
-    private javax.swing.JButton jButton20;
-    private javax.swing.JButton jButton21;
-    private javax.swing.JButton jButton22;
-    private javax.swing.JButton jButton23;
-    private javax.swing.JButton jButton24;
-    private javax.swing.JButton jButton25;
-    private javax.swing.JButton jButton26;
-    private javax.swing.JButton jButton27;
-    private javax.swing.JButton jButton28;
-    private javax.swing.JButton jButton29;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton30;
-    private javax.swing.JButton jButton31;
-    private javax.swing.JButton jButton32;
-    private javax.swing.JButton jButton33;
-    private javax.swing.JButton jButton34;
-    private javax.swing.JButton jButton35;
-    private javax.swing.JButton jButton36;
-    private javax.swing.JButton jButton37;
-    private javax.swing.JButton jButton38;
-    private javax.swing.JButton jButton39;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton40;
-    private javax.swing.JButton jButton41;
-    private javax.swing.JButton jButton42;
-    private javax.swing.JButton jButton43;
-    private javax.swing.JButton jButton44;
-    private javax.swing.JButton jButton45;
-    private javax.swing.JButton jButton46;
-    private javax.swing.JButton jButton47;
-    private javax.swing.JButton jButton48;
-    private javax.swing.JButton jButton49;
-    private javax.swing.JButton jButton50;
-    private javax.swing.JButton jButton51;
-    private javax.swing.JButton jButton52;
-    private javax.swing.JButton jButton53;
-    private javax.swing.JButton jButton54;
-    private javax.swing.JButton jButton55;
-    private javax.swing.JButton jButton56;
-    private javax.swing.JButton jButton57;
-    private javax.swing.JButton jButton58;
-    private javax.swing.JButton jButton59;
-    private javax.swing.JButton jButton6;
-    private javax.swing.JButton jButton60;
-    private javax.swing.JButton jButton61;
-    private javax.swing.JButton jButton62;
-    private javax.swing.JButton jButton63;
-    private javax.swing.JButton jButton64;
-    private javax.swing.JButton jButton65;
-    private javax.swing.JButton jButton66;
-    private javax.swing.JButton jButton67;
-    private javax.swing.JButton jButton68;
-    private javax.swing.JButton jButton69;
-    private javax.swing.JButton jButton7;
-    private javax.swing.JButton jButton70;
-    private javax.swing.JButton jButton71;
-    private javax.swing.JButton jButton72;
-    private javax.swing.JButton jButton73;
-    private javax.swing.JButton jButton74;
-    private javax.swing.JButton jButton75;
-    private javax.swing.JButton jButton76;
-    private javax.swing.JButton jButton77;
-    private javax.swing.JButton jButton78;
-    private javax.swing.JButton jButton79;
-    private javax.swing.JButton jButton8;
-    private javax.swing.JButton jButton80;
-    private javax.swing.JButton jButton81;
-    private javax.swing.JButton jButton82;
-    private javax.swing.JButton jButton83;
-    private javax.swing.JButton jButton84;
-    private javax.swing.JButton jButton85;
-    private javax.swing.JButton jButton86;
-    private javax.swing.JButton jButton87;
-    private javax.swing.JButton jButton88;
-    private javax.swing.JButton jButton89;
-    private javax.swing.JButton jButton9;
-    private javax.swing.JButton jButton90;
-    private javax.swing.JButton jButton91;
-    private javax.swing.JButton jButton92;
-    private javax.swing.JButton jButton93;
-    private javax.swing.JButton jButton94;
-    private javax.swing.JButton jButton95;
-    private javax.swing.JButton jButton96;
-    private javax.swing.JButton jButton97;
-    private javax.swing.JButton jButton98;
-    private javax.swing.JButton jButton99;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;

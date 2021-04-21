@@ -65,7 +65,7 @@ public class ControlBatallaNaval {
     public boolean submarinosEncontrados(JButton boton, int filas, int columnas) {
         boolean encontrados = false;
         if (oceano[filas][columnas] == 1) {
-            boton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/explosivo.gif")));
+            boton.setIcon(new javax.swing.ImageIcon(getClass().getResource("Imagenes/explosivo.gif")));
             encontrados = true;
             oceano[filas][columnas] = 0;
         } else {
