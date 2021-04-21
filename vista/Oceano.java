@@ -1774,7 +1774,7 @@ public class Oceano extends javax.swing.JFrame {
     
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton BTN_1;
+    public javax.swing.JButton BTN_1;
     private javax.swing.JButton BTN_10;
     private javax.swing.JButton BTN_100;
     private javax.swing.JButton BTN_11;
