@@ -32,17 +32,14 @@ public class ControlBatallaNaval {
         }
     }
 
-    public void fijarValor(int fila, int col, int valor) {
-        oceano[fila][col] = valor;
-
-    }
+   
 
     public void imprimir() {
         System.out.println("\n\t OCEANO ");
         for (int fila = 0; fila < 10; fila++) {
             System.out.println("");
             for (int columna = 0; columna < 10; columna++) {
-                System.out.println("\t" + oceano[fila][columna]);
+                System.out.print("\t" + oceano[fila][columna]);
             }
         }
     }
@@ -62,6 +59,8 @@ public class ControlBatallaNaval {
         return gameOver;
     }
 
+  
+    
     // cambio de imagenes
     public boolean submarinosEncontrados(JButton boton, int filas, int columnas, int puntos, JTextField puntaje) {
         boolean encontrados;
@@ -72,16 +71,20 @@ public class ControlBatallaNaval {
             puntos++;
             puntaje.setText(String.valueOf(puntos));
         } else {
-            boton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1(1).gif")));
+            
             encontrados = false;
         }
 
         return encontrados;
     }
     
-    //Actualizar número de misiles y de diparos
-    public void jugada(int misiles, int disparos, int puntos, JTextField txt_misil, JTextField txt_disparo){
+  //Actualizar número de misiles y de diparos
+    public void jugada(int misiles, int disparos, JTextField txt_misil, JTextField txt_disparo){
+        misiles = Integer.parseInt(txt_misil.getText());
+        disparos = Integer.parseInt(txt_disparo.getText());
+        
         if (misiles != 0) {
+            
             misiles--;
             disparos++;
             txt_misil.setText(String.valueOf(misiles));
