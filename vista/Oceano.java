@@ -1770,7 +1770,7 @@ public class Oceano extends javax.swing.JFrame {
         txt_Misiles_.setText("75");
         txt_disparos_.setText("0");
         txt_Puntos.setText("0");
-
+     
     }//GEN-LAST:event_JB_nuevoJuego_ActionPerformed
 
     private void txt_PuntosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_PuntosActionPerformed
