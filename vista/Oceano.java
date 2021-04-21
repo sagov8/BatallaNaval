@@ -154,15 +154,15 @@ public class Oceano extends javax.swing.JFrame {
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
         jPanel2.setLayout(null);
 
-        BTN_1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        BTN_1.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
-        BTN_1.addActionListener(new java.awt.event.ActionListener() {
+        BTN_01.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_01.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
+        BTN_01.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BTN_1ActionPerformed(evt);
+                BTN_01ActionPerformed(evt);
             }
         });
-        jPanel2.add(BTN_1);
-        BTN_1.setBounds(10, 2, 68, 55);
+        jPanel2.add(BTN_01);
+        BTN_01.setBounds(10, 2, 68, 55);
 
         BTN_07.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
         BTN_07.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
@@ -184,15 +184,10 @@ public class Oceano extends javax.swing.JFrame {
         jPanel2.add(BTN_06);
         BTN_06.setBounds(380, 2, 68, 55);
 
-        BTN_2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        BTN_2.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
-        BTN_2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BTN_2ActionPerformed(evt);
-            }
-        });
-        jPanel2.add(BTN_2);
-        BTN_2.setBounds(84, 2, 68, 55);
+        BTN_02.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_02.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
+        jPanel2.add(BTN_02);
+        BTN_02.setBounds(84, 2, 68, 55);
 
         BTN_10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
         BTN_10.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
@@ -1783,6 +1778,14 @@ public class Oceano extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     public javax.swing.JButton BTN_01;
+    private javax.swing.JButton BTN_02;
+    private javax.swing.JButton BTN_03;
+    private javax.swing.JButton BTN_04;
+    private javax.swing.JButton BTN_05;
+    private javax.swing.JButton BTN_06;
+    private javax.swing.JButton BTN_07;
+    private javax.swing.JButton BTN_08;
+    private javax.swing.JButton BTN_09;
     private javax.swing.JButton BTN_10;
     private javax.swing.JButton BTN_100;
     private javax.swing.JButton BTN_11;
@@ -1794,7 +1797,6 @@ public class Oceano extends javax.swing.JFrame {
     private javax.swing.JButton BTN_17;
     private javax.swing.JButton BTN_18;
     private javax.swing.JButton BTN_19;
-    private javax.swing.JButton BTN_02;
     private javax.swing.JButton BTN_20;
     private javax.swing.JButton BTN_21;
     private javax.swing.JButton BTN_22;
@@ -1805,7 +1807,6 @@ public class Oceano extends javax.swing.JFrame {
     private javax.swing.JButton BTN_27;
     private javax.swing.JButton BTN_28;
     private javax.swing.JButton BTN_29;
-    private javax.swing.JButton BTN_03;
     private javax.swing.JButton BTN_30;
     private javax.swing.JButton BTN_31;
     private javax.swing.JButton BTN_32;
@@ -1816,7 +1817,6 @@ public class Oceano extends javax.swing.JFrame {
     private javax.swing.JButton BTN_37;
     private javax.swing.JButton BTN_38;
     private javax.swing.JButton BTN_39;
-    private javax.swing.JButton BTN_04;
     private javax.swing.JButton BTN_40;
     private javax.swing.JButton BTN_41;
     private javax.swing.JButton BTN_42;
@@ -1827,7 +1827,6 @@ public class Oceano extends javax.swing.JFrame {
     private javax.swing.JButton BTN_47;
     private javax.swing.JButton BTN_48;
     private javax.swing.JButton BTN_49;
-    private javax.swing.JButton BTN_05;
     private javax.swing.JButton BTN_50;
     private javax.swing.JButton BTN_51;
     private javax.swing.JButton BTN_52;
@@ -1838,7 +1837,6 @@ public class Oceano extends javax.swing.JFrame {
     private javax.swing.JButton BTN_57;
     private javax.swing.JButton BTN_58;
     private javax.swing.JButton BTN_59;
-    private javax.swing.JButton BTN_06;
     private javax.swing.JButton BTN_60;
     private javax.swing.JButton BTN_61;
     private javax.swing.JButton BTN_62;
@@ -1849,7 +1847,6 @@ public class Oceano extends javax.swing.JFrame {
     private javax.swing.JButton BTN_67;
     private javax.swing.JButton BTN_68;
     private javax.swing.JButton BTN_69;
-    private javax.swing.JButton BTN_07;
     private javax.swing.JButton BTN_70;
     private javax.swing.JButton BTN_71;
     private javax.swing.JButton BTN_72;
@@ -1860,7 +1857,6 @@ public class Oceano extends javax.swing.JFrame {
     private javax.swing.JButton BTN_77;
     private javax.swing.JButton BTN_78;
     private javax.swing.JButton BTN_79;
-    private javax.swing.JButton BTN_08;
     private javax.swing.JButton BTN_80;
     private javax.swing.JButton BTN_81;
     private javax.swing.JButton BTN_82;
@@ -1871,7 +1867,6 @@ public class Oceano extends javax.swing.JFrame {
     private javax.swing.JButton BTN_87;
     private javax.swing.JButton BTN_88;
     private javax.swing.JButton BTN_89;
-    private javax.swing.JButton BTN_09;
     private javax.swing.JButton BTN_90;
     private javax.swing.JButton BTN_91;
     private javax.swing.JButton BTN_92;
