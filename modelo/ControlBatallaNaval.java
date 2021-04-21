@@ -3,6 +3,7 @@ package modelo;
 import java.util.Random;
 import javax.swing.JOptionPane;
 import javax.swing.JButton;
+import javax.swing.JTextField;
 
 /**
  *
@@ -31,17 +32,14 @@ public class ControlBatallaNaval {
         }
     }
 
-    public void fijarValor(int fila, int col, int valor) {
-        oceano[fila][col] = valor;
-
-    }
+   
 
     public void imprimir() {
         System.out.println("\n\t OCEANO ");
         for (int fila = 0; fila < 10; fila++) {
             System.out.println("");
             for (int columna = 0; columna < 10; columna++) {
-                System.out.println("\t" + oceano[fila][columna]);
+                System.out.print("\t" + oceano[fila][columna]);
             }
         }
     }
@@ -49,7 +47,7 @@ public class ControlBatallaNaval {
     //validacion de si gano o perdio 
     public boolean comparar(int puntos, int misiles) {
         boolean gameOver = false;
-        if (puntos == 0 && misiles > 0) {
+        if (puntos == 10 && misiles > 0) {
             JOptionPane.showMessageDialog(null, "\n GANASTE");
         }
 
@@ -61,19 +59,37 @@ public class ControlBatallaNaval {
         return gameOver;
     }
 
+  
+    
     // cambio de imagenes
-    public boolean submarinosEncontrados(JButton boton, int filas, int columnas) {
-        boolean encontrados = false;
+    public boolean submarinosEncontrados(JButton boton, int filas, int columnas, int puntos, JTextField puntaje) {
+        boolean encontrados;
         if (oceano[filas][columnas] == 1) {
             boton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/explosivo.gif")));
             encontrados = true;
             oceano[filas][columnas] = 0;
+            puntos++;
+            puntaje.setText(String.valueOf(puntos));
         } else {
-            boton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1(1).gif")));
+            
             encontrados = false;
         }
 
         return encontrados;
+    }
+    
+  //Actualizar número de misiles y de diparos
+    public void jugada(int misiles, int disparos, JTextField txt_misil, JTextField txt_disparo){
+        misiles = Integer.parseInt(txt_misil.getText());
+        disparos = Integer.parseInt(txt_disparo.getText());
+        
+        if (misiles != 0) {
+            
+            misiles--;
+            disparos++;
+            txt_misil.setText(String.valueOf(misiles));
+            txt_disparo.setText(String.valueOf(disparos));
+        } 
     }
 
 }

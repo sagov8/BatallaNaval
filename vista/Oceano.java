@@ -18,7 +18,7 @@ public class Oceano extends javax.swing.JFrame {
         initComponents();
         control = new ControlBatallaNaval();
         control.asignarSubmarino();
-        control.limpiar();
+       
         control.imprimir();
         txt_Misiles_.setText("75");
         txt_Puntos.setText("0");
@@ -38,16 +38,16 @@ public class Oceano extends javax.swing.JFrame {
 
         jPanel2 = new javax.swing.JPanel();
         BTN_01 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
+        BTN_07 = new javax.swing.JButton();
+        BTN_06 = new javax.swing.JButton();
         BTN_02 = new javax.swing.JButton();
-        jButton6 = new javax.swing.JButton();
-        jButton7 = new javax.swing.JButton();
-        jButton8 = new javax.swing.JButton();
-        jButton9 = new javax.swing.JButton();
-        jButton10 = new javax.swing.JButton();
-        jButton11 = new javax.swing.JButton();
-        jButton12 = new javax.swing.JButton();
+        BTN_10 = new javax.swing.JButton();
+        BTN_03 = new javax.swing.JButton();
+        BTN_04 = new javax.swing.JButton();
+        BTN_05 = new javax.swing.JButton();
+        BTN_08 = new javax.swing.JButton();
+        BTN_09 = new javax.swing.JButton();
+        BTN_11 = new javax.swing.JButton();
         jButton13 = new javax.swing.JButton();
         jButton14 = new javax.swing.JButton();
         jButton15 = new javax.swing.JButton();
@@ -167,25 +167,25 @@ public class Oceano extends javax.swing.JFrame {
         jPanel2.add(BTN_01);
         BTN_01.setBounds(10, 2, 68, 55);
 
-        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton3.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
-        jButton3.addActionListener(new java.awt.event.ActionListener() {
+        BTN_07.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_07.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
+        BTN_07.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton3ActionPerformed(evt);
+                BTN_07ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton3);
-        jButton3.setBounds(454, 2, 68, 55);
+        jPanel2.add(BTN_07);
+        BTN_07.setBounds(454, 2, 68, 55);
 
-        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton4.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
-        jButton4.addActionListener(new java.awt.event.ActionListener() {
+        BTN_06.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_06.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
+        BTN_06.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton4ActionPerformed(evt);
+                BTN_06ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton4);
-        jButton4.setBounds(380, 2, 68, 55);
+        jPanel2.add(BTN_06);
+        BTN_06.setBounds(380, 2, 68, 55);
 
         BTN_02.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
         BTN_02.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
@@ -197,75 +197,75 @@ public class Oceano extends javax.swing.JFrame {
         jPanel2.add(BTN_02);
         BTN_02.setBounds(84, 2, 68, 55);
 
-        jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton6.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
-        jButton6.addActionListener(new java.awt.event.ActionListener() {
+        BTN_10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_10.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
+        BTN_10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton6ActionPerformed(evt);
+                BTN_10ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton6);
-        jButton6.setBounds(676, 2, 68, 55);
+        jPanel2.add(BTN_10);
+        BTN_10.setBounds(676, 2, 68, 55);
 
-        jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton7.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
-        jButton7.addActionListener(new java.awt.event.ActionListener() {
+        BTN_03.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_03.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
+        BTN_03.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton7ActionPerformed(evt);
+                BTN_03ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton7);
-        jButton7.setBounds(158, 2, 68, 55);
+        jPanel2.add(BTN_03);
+        BTN_03.setBounds(158, 2, 68, 55);
 
-        jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton8.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
-        jButton8.addActionListener(new java.awt.event.ActionListener() {
+        BTN_04.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_04.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
+        BTN_04.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton8ActionPerformed(evt);
+                BTN_04ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton8);
-        jButton8.setBounds(232, 2, 68, 55);
+        jPanel2.add(BTN_04);
+        BTN_04.setBounds(232, 2, 68, 55);
 
-        jButton9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton9.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
-        jButton9.addActionListener(new java.awt.event.ActionListener() {
+        BTN_05.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_05.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
+        BTN_05.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton9ActionPerformed(evt);
+                BTN_05ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton9);
-        jButton9.setBounds(306, 2, 68, 55);
+        jPanel2.add(BTN_05);
+        BTN_05.setBounds(306, 2, 68, 55);
 
-        jButton10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton10.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
-        jButton10.addActionListener(new java.awt.event.ActionListener() {
+        BTN_08.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_08.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
+        BTN_08.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton10ActionPerformed(evt);
+                BTN_08ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton10);
-        jButton10.setBounds(528, 2, 68, 55);
+        jPanel2.add(BTN_08);
+        BTN_08.setBounds(528, 2, 68, 55);
 
-        jButton11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton11.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
-        jButton11.addActionListener(new java.awt.event.ActionListener() {
+        BTN_09.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_09.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
+        BTN_09.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton11ActionPerformed(evt);
+                BTN_09ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton11);
-        jButton11.setBounds(602, 2, 68, 55);
+        jPanel2.add(BTN_09);
+        BTN_09.setBounds(602, 2, 68, 55);
 
-        jButton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
-        jButton12.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
-        jButton12.addActionListener(new java.awt.event.ActionListener() {
+        BTN_11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
+        BTN_11.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
+        BTN_11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton12ActionPerformed(evt);
+                BTN_11ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton12);
-        jButton12.setBounds(10, 68, 68, 55);
+        jPanel2.add(BTN_11);
+        BTN_11.setBounds(10, 68, 68, 55);
 
         jButton13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif"))); // NOI18N
         jButton13.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
@@ -1322,48 +1322,51 @@ public class Oceano extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void BTN_01ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_01ActionPerformed
-
+            control.submarinosEncontrados(BTN_01,0,0, puntos,txt_Puntos);
+            control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+            
     }//GEN-LAST:event_BTN_01ActionPerformed
 
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+    private void BTN_07ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_07ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton3ActionPerformed
+    }//GEN-LAST:event_BTN_07ActionPerformed
 
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+    private void BTN_06ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_06ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton4ActionPerformed
+    }//GEN-LAST:event_BTN_06ActionPerformed
 
     private void BTN_02ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_02ActionPerformed
-        // TODO add your handling code here:
+         control.submarinosEncontrados(BTN_02,0,1, puntos,txt_Puntos);
+         control.jugada(misiles, disparos,  txt_Misiles_, txt_disparos_);
     }//GEN-LAST:event_BTN_02ActionPerformed
 
-    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+    private void BTN_10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_10ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton6ActionPerformed
+    }//GEN-LAST:event_BTN_10ActionPerformed
 
-    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
+    private void BTN_03ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_03ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton7ActionPerformed
+    }//GEN-LAST:event_BTN_03ActionPerformed
 
-    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
+    private void BTN_04ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_04ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton8ActionPerformed
+    }//GEN-LAST:event_BTN_04ActionPerformed
 
-    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
+    private void BTN_05ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_05ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton9ActionPerformed
+    }//GEN-LAST:event_BTN_05ActionPerformed
 
-    private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
+    private void BTN_08ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_08ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton10ActionPerformed
+    }//GEN-LAST:event_BTN_08ActionPerformed
 
-    private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
+    private void BTN_09ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_09ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton11ActionPerformed
+    }//GEN-LAST:event_BTN_09ActionPerformed
 
-    private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
+    private void BTN_11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_11ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton12ActionPerformed
+    }//GEN-LAST:event_BTN_11ActionPerformed
 
     private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
         // TODO add your handling code here:
@@ -1725,6 +1728,11 @@ public class Oceano extends javax.swing.JFrame {
         control.imprimir();
         control.limpiar();
         control.asignarSubmarino();
+        
+        txt_Misiles_.setText("75");
+        txt_disparos_.setText("0");
+        txt_Puntos.setText("0");
+        
     }//GEN-LAST:event_JB_nuevoJuego_ActionPerformed
 
     private void txt_PuntosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_PuntosActionPerformed
@@ -1777,12 +1785,18 @@ public class Oceano extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton BTN_01;
     private javax.swing.JButton BTN_02;
+    private javax.swing.JButton BTN_03;
+    private javax.swing.JButton BTN_04;
+    private javax.swing.JButton BTN_05;
+    private javax.swing.JButton BTN_06;
+    private javax.swing.JButton BTN_07;
+    private javax.swing.JButton BTN_08;
+    private javax.swing.JButton BTN_09;
+    private javax.swing.JButton BTN_10;
+    private javax.swing.JButton BTN_11;
     private javax.swing.JButton JB_nuevoJuego_;
-    private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton100;
     private javax.swing.JButton jButton101;
-    private javax.swing.JButton jButton11;
-    private javax.swing.JButton jButton12;
     private javax.swing.JButton jButton13;
     private javax.swing.JButton jButton14;
     private javax.swing.JButton jButton15;
@@ -1800,7 +1814,6 @@ public class Oceano extends javax.swing.JFrame {
     private javax.swing.JButton jButton27;
     private javax.swing.JButton jButton28;
     private javax.swing.JButton jButton29;
-    private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton30;
     private javax.swing.JButton jButton31;
     private javax.swing.JButton jButton32;
@@ -1811,7 +1824,6 @@ public class Oceano extends javax.swing.JFrame {
     private javax.swing.JButton jButton37;
     private javax.swing.JButton jButton38;
     private javax.swing.JButton jButton39;
-    private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton40;
     private javax.swing.JButton jButton41;
     private javax.swing.JButton jButton42;
@@ -1832,7 +1844,6 @@ public class Oceano extends javax.swing.JFrame {
     private javax.swing.JButton jButton57;
     private javax.swing.JButton jButton58;
     private javax.swing.JButton jButton59;
-    private javax.swing.JButton jButton6;
     private javax.swing.JButton jButton60;
     private javax.swing.JButton jButton61;
     private javax.swing.JButton jButton62;
@@ -1843,7 +1854,6 @@ public class Oceano extends javax.swing.JFrame {
     private javax.swing.JButton jButton67;
     private javax.swing.JButton jButton68;
     private javax.swing.JButton jButton69;
-    private javax.swing.JButton jButton7;
     private javax.swing.JButton jButton70;
     private javax.swing.JButton jButton71;
     private javax.swing.JButton jButton72;
@@ -1854,7 +1864,6 @@ public class Oceano extends javax.swing.JFrame {
     private javax.swing.JButton jButton77;
     private javax.swing.JButton jButton78;
     private javax.swing.JButton jButton79;
-    private javax.swing.JButton jButton8;
     private javax.swing.JButton jButton80;
     private javax.swing.JButton jButton81;
     private javax.swing.JButton jButton82;
@@ -1865,7 +1874,6 @@ public class Oceano extends javax.swing.JFrame {
     private javax.swing.JButton jButton87;
     private javax.swing.JButton jButton88;
     private javax.swing.JButton jButton89;
-    private javax.swing.JButton jButton9;
     private javax.swing.JButton jButton90;
     private javax.swing.JButton jButton91;
     private javax.swing.JButton jButton92;
