@@ -1762,6 +1762,7 @@ public class Oceano extends javax.swing.JFrame {
     }//GEN-LAST:event_BTN_100ActionPerformed
 
     private void JB_nuevoJuego_ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JB_nuevoJuego_ActionPerformed
+          
         control.imprimir();
         control.limpiar();
         control.asignarSubmarino();
