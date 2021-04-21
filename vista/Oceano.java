@@ -18,7 +18,6 @@ public class Oceano extends javax.swing.JFrame {
         initComponents();
         control = new ControlBatallaNaval();
         control.asignarSubmarino();
-
         control.imprimir();
         txt_Misiles_.setText("75");
         txt_Puntos.setText("0");
