@@ -3,6 +3,7 @@ package modelo;
 import java.util.Random;
 import javax.swing.JOptionPane;
 import javax.swing.JButton;
+import javax.swing.JTextField;
 
 /**
  *
@@ -62,18 +63,30 @@ public class ControlBatallaNaval {
     }
 
     // cambio de imagenes
-    public boolean submarinosEncontrados(JButton boton, int filas, int columnas) {
-        boolean encontrados = false;
+    public boolean submarinosEncontrados(JButton boton, int filas, int columnas, int puntos, JTextField puntaje) {
+        boolean encontrados;
         if (oceano[filas][columnas] == 1) {
             boton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/explosivo.gif")));
             encontrados = true;
             oceano[filas][columnas] = 0;
+            puntos++;
+            puntaje.setText(String.valueOf(puntos));
         } else {
             boton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1(1).gif")));
             encontrados = false;
         }
 
         return encontrados;
+    }
+    
+    //Actualizar número de misiles y de diparos
+    public void jugada(int misiles, int disparos, int puntos, JTextField txt_misil, JTextField txt_disparo){
+        if (misiles != 0) {
+            misiles--;
+            disparos++;
+            txt_misil.setText(String.valueOf(misiles));
+            txt_disparo.setText(String.valueOf(disparos));
+        } 
     }
 
 }
