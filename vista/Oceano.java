@@ -5,6 +5,7 @@ package vista;
  * @author sagov8
  */
 import javax.swing.JButton;
+import javax.swing.JFrame;
 import modelo.ControlBatallaNaval;
 
 public class Oceano extends javax.swing.JFrame {
@@ -19,9 +20,13 @@ public class Oceano extends javax.swing.JFrame {
         control = new ControlBatallaNaval();
         control.asignarSubmarino();
         control.imprimir();
+        
         txt_Misiles_.setText("75");
         txt_Puntos.setText("0");
         txt_disparos_.setText("0");
+        
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        this.setLocationRelativeTo(null);
     }
 
     @SuppressWarnings("unchecked")
@@ -1312,502 +1317,602 @@ public class Oceano extends javax.swing.JFrame {
     private void BTN_01ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_01ActionPerformed
         control.submarinosEncontrados(BTN_01, 0, 0, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
 
     }//GEN-LAST:event_BTN_01ActionPerformed
 
     private void BTN_07ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_07ActionPerformed
         control.submarinosEncontrados(BTN_07, 0, 6, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_07ActionPerformed
 
     private void BTN_06ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_06ActionPerformed
         control.submarinosEncontrados(BTN_06, 0, 5, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_06ActionPerformed
 
     private void BTN_02ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_02ActionPerformed
         control.submarinosEncontrados(BTN_02, 0, 1, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_02ActionPerformed
 
     private void BTN_10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_10ActionPerformed
         control.submarinosEncontrados(BTN_10, 0, 9, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_10ActionPerformed
 
     private void BTN_03ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_03ActionPerformed
         control.submarinosEncontrados(BTN_03, 0, 2, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_03ActionPerformed
 
     private void BTN_04ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_04ActionPerformed
         control.submarinosEncontrados(BTN_04, 0, 3, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_04ActionPerformed
 
     private void BTN_05ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_05ActionPerformed
         control.submarinosEncontrados(BTN_05, 0, 4, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_05ActionPerformed
 
     private void BTN_08ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_08ActionPerformed
         control.submarinosEncontrados(BTN_08, 0, 7, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_08ActionPerformed
 
     private void BTN_09ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_09ActionPerformed
         control.submarinosEncontrados(BTN_09, 0, 8, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_09ActionPerformed
 
     private void BTN_11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_11ActionPerformed
         control.submarinosEncontrados(BTN_11, 1, 0, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_11ActionPerformed
 
     private void BTN_12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_12ActionPerformed
         control.submarinosEncontrados(BTN_12, 1, 1, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_12ActionPerformed
 
     private void BTN_13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_13ActionPerformed
         control.submarinosEncontrados(BTN_13, 1, 2, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_13ActionPerformed
 
     private void BTN_14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_14ActionPerformed
         control.submarinosEncontrados(BTN_14, 1, 3, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_14ActionPerformed
 
     private void BTN_15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_15ActionPerformed
         control.submarinosEncontrados(BTN_15, 1, 4, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_15ActionPerformed
 
     private void BTN_16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_16ActionPerformed
         control.submarinosEncontrados(BTN_16, 1, 5, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_16ActionPerformed
 
     private void BTN_17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_17ActionPerformed
         control.submarinosEncontrados(BTN_17, 1, 6, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_17ActionPerformed
 
     private void BTN_18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_18ActionPerformed
         control.submarinosEncontrados(BTN_18, 1, 7, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_18ActionPerformed
 
     private void BTN_19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_19ActionPerformed
         control.submarinosEncontrados(BTN_19, 1, 8, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_19ActionPerformed
 
     private void BTN_20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_20ActionPerformed
         control.submarinosEncontrados(BTN_20, 1, 9, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_20ActionPerformed
 
     private void BTN_21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_21ActionPerformed
         control.submarinosEncontrados(BTN_21, 2, 0, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_21ActionPerformed
 
     private void BTN_22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_22ActionPerformed
         control.submarinosEncontrados(BTN_22, 2, 1, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_22ActionPerformed
 
     private void BTN_23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_23ActionPerformed
         control.submarinosEncontrados(BTN_23, 2, 2, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_23ActionPerformed
 
     private void BTN_24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_24ActionPerformed
         control.submarinosEncontrados(BTN_24, 2, 3, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_24ActionPerformed
 
     private void BTN_25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_25ActionPerformed
         control.submarinosEncontrados(BTN_25, 2, 4, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_25ActionPerformed
 
     private void BTN_26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_26ActionPerformed
         control.submarinosEncontrados(BTN_26, 2, 5, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_26ActionPerformed
 
     private void BTN_27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_27ActionPerformed
         control.submarinosEncontrados(BTN_27, 2, 6, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_27ActionPerformed
 
     private void BTN_28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_28ActionPerformed
         control.submarinosEncontrados(BTN_28, 2, 7, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_28ActionPerformed
 
     private void BTN_29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_29ActionPerformed
         control.submarinosEncontrados(BTN_29, 2, 8, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_29ActionPerformed
 
     private void BTN_30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_30ActionPerformed
         control.submarinosEncontrados(BTN_30, 2, 9, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_30ActionPerformed
 
     private void BTN_31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_31ActionPerformed
         control.submarinosEncontrados(BTN_31, 3, 0, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_31ActionPerformed
 
     private void BTN_32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_32ActionPerformed
         control.submarinosEncontrados(BTN_32, 3, 1, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_32ActionPerformed
 
     private void BTN_33ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_33ActionPerformed
         control.submarinosEncontrados(BTN_33, 3, 2, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_33ActionPerformed
 
     private void BTN_34ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_34ActionPerformed
         control.submarinosEncontrados(BTN_34, 3, 3, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_34ActionPerformed
 
     private void BTN_35ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_35ActionPerformed
         control.submarinosEncontrados(BTN_35, 3, 4, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_35ActionPerformed
 
     private void BTN_36ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_36ActionPerformed
         control.submarinosEncontrados(BTN_36, 3, 5, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_36ActionPerformed
 
     private void BTN_37ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_37ActionPerformed
         control.submarinosEncontrados(BTN_37, 3, 6, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_37ActionPerformed
 
     private void BTN_38ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_38ActionPerformed
         control.submarinosEncontrados(BTN_38, 3, 7, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_38ActionPerformed
 
     private void BTN_39ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_39ActionPerformed
         control.submarinosEncontrados(BTN_39, 3, 8, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_39ActionPerformed
 
     private void BTN_40ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_40ActionPerformed
         control.submarinosEncontrados(BTN_40, 3, 9, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_40ActionPerformed
 
     private void BTN_41ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_41ActionPerformed
         control.submarinosEncontrados(BTN_41, 4, 0, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_41ActionPerformed
 
     private void BTN_42ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_42ActionPerformed
         control.submarinosEncontrados(BTN_42, 4, 1, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_42ActionPerformed
 
     private void BTN_43ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_43ActionPerformed
         control.submarinosEncontrados(BTN_43, 4, 2, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_43ActionPerformed
 
     private void BTN_44ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_44ActionPerformed
         control.submarinosEncontrados(BTN_44, 4, 3, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_44ActionPerformed
 
     private void BTN_45ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_45ActionPerformed
         control.submarinosEncontrados(BTN_45, 4, 4, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_45ActionPerformed
 
     private void BTN_46ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_46ActionPerformed
         control.submarinosEncontrados(BTN_46, 4, 5, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_46ActionPerformed
 
     private void BTN_47ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_47ActionPerformed
         control.submarinosEncontrados(BTN_47, 4, 6, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_47ActionPerformed
 
     private void BTN_48ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_48ActionPerformed
         control.submarinosEncontrados(BTN_48, 4, 7, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_48ActionPerformed
 
     private void BTN_49ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_49ActionPerformed
         control.submarinosEncontrados(BTN_49, 4, 8, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_49ActionPerformed
 
     private void BTN_50ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_50ActionPerformed
         control.submarinosEncontrados(BTN_50, 4, 9, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_50ActionPerformed
 
     private void BTN_51ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_51ActionPerformed
         control.submarinosEncontrados(BTN_51, 5, 0, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_51ActionPerformed
 
     private void BTN_52ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_52ActionPerformed
         control.submarinosEncontrados(BTN_52, 5, 1, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_52ActionPerformed
 
     private void BTN_53ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_53ActionPerformed
         control.submarinosEncontrados(BTN_53, 5, 2, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_53ActionPerformed
 
     private void BTN_54ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_54ActionPerformed
         control.submarinosEncontrados(BTN_54, 5, 3, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_54ActionPerformed
 
     private void BTN_55ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_55ActionPerformed
         control.submarinosEncontrados(BTN_55, 5, 4, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_55ActionPerformed
 
     private void BTN_56ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_56ActionPerformed
         control.submarinosEncontrados(BTN_56, 5, 5, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_56ActionPerformed
 
     private void BTN_57ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_57ActionPerformed
         control.submarinosEncontrados(BTN_57, 5, 6, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_57ActionPerformed
 
     private void BTN_58ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_58ActionPerformed
         control.submarinosEncontrados(BTN_58, 5, 7, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_58ActionPerformed
 
     private void BTN_59ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_59ActionPerformed
         control.submarinosEncontrados(BTN_59, 5, 8, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_59ActionPerformed
 
     private void BTN_60ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_60ActionPerformed
         control.submarinosEncontrados(BTN_60, 5, 9, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_60ActionPerformed
 
     private void BTN_61ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_61ActionPerformed
         control.submarinosEncontrados(BTN_61, 6, 0, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_61ActionPerformed
 
     private void BTN_62ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_62ActionPerformed
         control.submarinosEncontrados(BTN_62, 6, 1, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_62ActionPerformed
 
     private void BTN_63ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_63ActionPerformed
         control.submarinosEncontrados(BTN_63, 6, 2, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_63ActionPerformed
 
     private void BTN_64ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_64ActionPerformed
         control.submarinosEncontrados(BTN_64, 6, 3, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_64ActionPerformed
 
     private void BTN_65ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_65ActionPerformed
         control.submarinosEncontrados(BTN_65, 6, 4, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_65ActionPerformed
 
     private void BTN_66ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_66ActionPerformed
         control.submarinosEncontrados(BTN_66, 6, 5, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_66ActionPerformed
 
     private void BTN_67ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_67ActionPerformed
         control.submarinosEncontrados(BTN_67, 6, 6, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_67ActionPerformed
 
     private void BTN_68ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_68ActionPerformed
         control.submarinosEncontrados(BTN_68, 6, 7, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_68ActionPerformed
 
     private void BTN_69ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_69ActionPerformed
         control.submarinosEncontrados(BTN_69, 6, 8, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_69ActionPerformed
 
     private void BTN_70ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_70ActionPerformed
         control.submarinosEncontrados(BTN_70, 6, 9, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_70ActionPerformed
 
     private void BTN_71ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_71ActionPerformed
         control.submarinosEncontrados(BTN_71, 7, 0, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_71ActionPerformed
 
     private void BTN_72ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_72ActionPerformed
         control.submarinosEncontrados(BTN_72, 7, 1, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_72ActionPerformed
 
     private void BTN_73ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_73ActionPerformed
         control.submarinosEncontrados(BTN_73, 7, 2, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_73ActionPerformed
 
     private void BTN_74ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_74ActionPerformed
         control.submarinosEncontrados(BTN_74, 7, 3, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_74ActionPerformed
 
     private void BTN_75ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_75ActionPerformed
         control.submarinosEncontrados(BTN_75, 7, 4, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_75ActionPerformed
 
     private void BTN_76ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_76ActionPerformed
         control.submarinosEncontrados(BTN_76, 7, 5, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_76ActionPerformed
 
     private void BTN_77ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_77ActionPerformed
         control.submarinosEncontrados(BTN_77, 7, 6, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_77ActionPerformed
 
     private void BTN_78ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_78ActionPerformed
         control.submarinosEncontrados(BTN_78, 7, 7, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_78ActionPerformed
 
     private void BTN_79ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_79ActionPerformed
         control.submarinosEncontrados(BTN_79, 7, 8, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_79ActionPerformed
 
     private void BTN_80ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_80ActionPerformed
         control.submarinosEncontrados(BTN_80, 7, 9, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_80ActionPerformed
 
     private void BTN_81ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_81ActionPerformed
         control.submarinosEncontrados(BTN_81, 8, 0, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_81ActionPerformed
 
     private void BTN_82ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_82ActionPerformed
         control.submarinosEncontrados(BTN_82, 8, 1, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_82ActionPerformed
 
     private void BTN_83ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_83ActionPerformed
         control.submarinosEncontrados(BTN_83, 8, 2, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_83ActionPerformed
 
     private void BTN_84ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_84ActionPerformed
         control.submarinosEncontrados(BTN_84, 8, 3, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_84ActionPerformed
 
     private void BTN_85ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_85ActionPerformed
         control.submarinosEncontrados(BTN_85, 8, 4, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_85ActionPerformed
 
     private void BTN_86ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_86ActionPerformed
         control.submarinosEncontrados(BTN_86, 8, 5, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_86ActionPerformed
 
     private void BTN_87ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_87ActionPerformed
         control.submarinosEncontrados(BTN_87, 8, 6, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_87ActionPerformed
 
     private void BTN_88ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_88ActionPerformed
         control.submarinosEncontrados(BTN_88, 8, 7, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_88ActionPerformed
 
     private void BTN_89ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_89ActionPerformed
         control.submarinosEncontrados(BTN_89, 8, 8, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_89ActionPerformed
 
     private void BTN_90ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_90ActionPerformed
         control.submarinosEncontrados(BTN_90, 8, 9, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_90ActionPerformed
 
     private void BTN_91ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_91ActionPerformed
         control.submarinosEncontrados(BTN_91, 9, 0, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_91ActionPerformed
 
     private void BTN_92ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_92ActionPerformed
         control.submarinosEncontrados(BTN_92, 9, 1, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_92ActionPerformed
 
     private void BTN_93ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_93ActionPerformed
         control.submarinosEncontrados(BTN_93, 9, 2, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_93ActionPerformed
 
     private void BTN_94ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_94ActionPerformed
         control.submarinosEncontrados(BTN_94, 9, 3, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_94ActionPerformed
 
     private void BTN_95ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_95ActionPerformed
         control.submarinosEncontrados(BTN_95, 9, 4, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_95ActionPerformed
 
     private void BTN_96ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_96ActionPerformed
         control.submarinosEncontrados(BTN_96, 9, 5, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_96ActionPerformed
 
     private void BTN_97ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_97ActionPerformed
         control.submarinosEncontrados(BTN_97, 9, 6, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_97ActionPerformed
 
     private void BTN_98ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_98ActionPerformed
         control.submarinosEncontrados(BTN_98, 9, 7, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_98ActionPerformed
 
     private void BTN_99ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_99ActionPerformed
         control.submarinosEncontrados(BTN_99, 9, 8, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_99ActionPerformed
 
     private void BTN_100ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_100ActionPerformed
         control.submarinosEncontrados(BTN_100, 9, 9, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+        control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
     }//GEN-LAST:event_BTN_100ActionPerformed
 
     private void JB_nuevoJuego_ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JB_nuevoJuego_ActionPerformed

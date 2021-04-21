@@ -45,7 +45,7 @@ public class ControlBatallaNaval {
     }
 
     //validacion de si gano o perdio 
-    public boolean comparar(int puntos, int misiles) {
+    public void comparar(int puntos, int misiles) {
         boolean gameOver = false;
         if (puntos == 10 && misiles > 0) {
             JOptionPane.showMessageDialog(null, "\n GANASTE");
@@ -56,7 +56,7 @@ public class ControlBatallaNaval {
             gameOver = true;
         }
 
-        return gameOver;
+        //return gameOver;
     }
 
   
@@ -65,6 +65,7 @@ public class ControlBatallaNaval {
     public boolean submarinosEncontrados(JButton boton, int filas, int columnas, int puntos, JTextField puntaje) {
         boolean encontrados;
         puntos = Integer.parseInt(puntaje.getText());
+        
         if (oceano[filas][columnas] == 1) {
             boton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/explosivo.gif")));
             encontrados = true;
