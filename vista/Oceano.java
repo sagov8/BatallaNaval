@@ -20,14 +20,16 @@ public class Oceano extends javax.swing.JFrame {
         control = new ControlBatallaNaval();
         control.asignarSubmarino();
         control.imprimir();
-        
+
         txt_Misiles_.setText("75");
         txt_Puntos.setText("0");
         txt_disparos_.setText("0");
-        
+
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLocationRelativeTo(null);
     }
+
+  
 
     @SuppressWarnings("unchecked")
 
@@ -1325,36 +1327,43 @@ public class Oceano extends javax.swing.JFrame {
         control.submarinosEncontrados(BTN_07, 0, 6, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
         control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
+
     }//GEN-LAST:event_BTN_07ActionPerformed
 
     private void BTN_06ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_06ActionPerformed
         control.submarinosEncontrados(BTN_06, 0, 5, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
         control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
+
+
     }//GEN-LAST:event_BTN_06ActionPerformed
 
     private void BTN_02ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_02ActionPerformed
         control.submarinosEncontrados(BTN_02, 0, 1, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
         control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
+
     }//GEN-LAST:event_BTN_02ActionPerformed
 
     private void BTN_10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_10ActionPerformed
         control.submarinosEncontrados(BTN_10, 0, 9, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
         control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
+
     }//GEN-LAST:event_BTN_10ActionPerformed
 
     private void BTN_03ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_03ActionPerformed
         control.submarinosEncontrados(BTN_03, 0, 2, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
         control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
+
     }//GEN-LAST:event_BTN_03ActionPerformed
 
     private void BTN_04ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_04ActionPerformed
         control.submarinosEncontrados(BTN_04, 0, 3, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
         control.comparar(Integer.parseInt(txt_Puntos.getText()), Integer.parseInt(txt_Misiles_.getText()));
+
     }//GEN-LAST:event_BTN_04ActionPerformed
 
     private void BTN_05ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_05ActionPerformed
@@ -1916,15 +1925,130 @@ public class Oceano extends javax.swing.JFrame {
     }//GEN-LAST:event_BTN_100ActionPerformed
 
     private void JB_nuevoJuego_ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JB_nuevoJuego_ActionPerformed
-
-        control.imprimir();
+        
+       
         control.limpiar();
         control.asignarSubmarino();
-
+        control.imprimir();
+        
+     
         txt_Misiles_.setText("75");
         txt_disparos_.setText("0");
         txt_Puntos.setText("0");
-     
+        
+         int misiles = 75;
+         int puntos = 0;
+         int disparos = 0;
+                
+         BTN_01.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_02.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_03.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_04.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_05.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_06.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_07.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_08.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_09.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_24.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_26.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_27.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_28.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_29.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_30.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_31.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_32.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_33.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_34.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_35.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_36.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_37.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_38.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_39.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_40.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_41.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_42.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_43.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_44.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_45.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_46.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_47.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_48.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_49.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_50.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_51.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_52.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_53.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_54.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_55.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_56.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_57.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_58.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_59.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_60.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_61.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_62.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_63.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_64.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_65.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_66.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_67.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_68.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_69.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_70.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_71.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_72.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_73.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_74.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_75.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_76.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_77.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_78.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_79.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_80.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_81.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_32.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_83.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_84.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_85.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_86.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_87.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_88.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_89.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_90.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_91.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_92.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_93.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_94.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_95.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_96.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_97.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_98.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_99.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+         BTN_100.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/oceano-gif-1 (1).gif")));
+                 
+                 
+                 
+                 
+                 
+       
+        
+      
+
     }//GEN-LAST:event_JB_nuevoJuego_ActionPerformed
 
     private void txt_PuntosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_PuntosActionPerformed
