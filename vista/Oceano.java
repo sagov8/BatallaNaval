@@ -1317,12 +1317,12 @@ public class Oceano extends javax.swing.JFrame {
     }//GEN-LAST:event_BTN_01ActionPerformed
 
     private void BTN_07ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_07ActionPerformed
-        control.submarinosEncontrados(BTN_01, 0, 6, puntos, txt_Puntos);
+        control.submarinosEncontrados(BTN_07, 0, 6, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
     }//GEN-LAST:event_BTN_07ActionPerformed
 
     private void BTN_06ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_06ActionPerformed
-        control.submarinosEncontrados(BTN_02, 0, 5, puntos, txt_Puntos);
+        control.submarinosEncontrados(BTN_06, 0, 5, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
     }//GEN-LAST:event_BTN_06ActionPerformed
 
@@ -1332,32 +1332,32 @@ public class Oceano extends javax.swing.JFrame {
     }//GEN-LAST:event_BTN_02ActionPerformed
 
     private void BTN_10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_10ActionPerformed
-        control.submarinosEncontrados(BTN_02, 0, 9, puntos, txt_Puntos);
+        control.submarinosEncontrados(BTN_10, 0, 9, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
     }//GEN-LAST:event_BTN_10ActionPerformed
 
     private void BTN_03ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_03ActionPerformed
-        control.submarinosEncontrados(BTN_02, 0, 2, puntos, txt_Puntos);
+        control.submarinosEncontrados(BTN_03, 0, 2, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
     }//GEN-LAST:event_BTN_03ActionPerformed
 
     private void BTN_04ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_04ActionPerformed
-        control.submarinosEncontrados(BTN_02, 0, 3, puntos, txt_Puntos);
+        control.submarinosEncontrados(BTN_04, 0, 3, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
     }//GEN-LAST:event_BTN_04ActionPerformed
 
     private void BTN_05ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_05ActionPerformed
-        control.submarinosEncontrados(BTN_02, 0, 4, puntos, txt_Puntos);
+        control.submarinosEncontrados(BTN_05, 0, 4, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
     }//GEN-LAST:event_BTN_05ActionPerformed
 
     private void BTN_08ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_08ActionPerformed
-        control.submarinosEncontrados(BTN_02, 0, 7, puntos, txt_Puntos);
+        control.submarinosEncontrados(BTN_08, 0, 7, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
     }//GEN-LAST:event_BTN_08ActionPerformed
 
     private void BTN_09ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_09ActionPerformed
-        control.submarinosEncontrados(BTN_02, 0, 8, puntos, txt_Puntos);
+        control.submarinosEncontrados(BTN_09, 0, 8, puntos, txt_Puntos);
         control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
     }//GEN-LAST:event_BTN_09ActionPerformed
 
