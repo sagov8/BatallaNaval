@@ -64,6 +64,7 @@ public class ControlBatallaNaval {
     // cambio de imagenes
     public boolean submarinosEncontrados(JButton boton, int filas, int columnas, int puntos, JTextField puntaje) {
         boolean encontrados;
+        puntos = Integer.parseInt(puntaje.getText());
         if (oceano[filas][columnas] == 1) {
             boton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/explosivo.gif")));
             encontrados = true;

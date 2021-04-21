@@ -10,24 +10,21 @@ import modelo.ControlBatallaNaval;
 public class Oceano extends javax.swing.JFrame {
 
     ControlBatallaNaval control;
-    int misiles= 75;
-    int puntos=0;
-    int disparos=0;
+    int misiles = 75;
+    int puntos = 0;
+    int disparos = 0;
 
     public Oceano() {
         initComponents();
         control = new ControlBatallaNaval();
         control.asignarSubmarino();
-       
+
         control.imprimir();
         txt_Misiles_.setText("75");
         txt_Puntos.setText("0");
         txt_disparos_.setText("0");
     }
-    
-    
 
-   
     @SuppressWarnings("unchecked")
 
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
@@ -1314,46 +1311,54 @@ public class Oceano extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void BTN_01ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_01ActionPerformed
-            control.submarinosEncontrados(BTN_01,0,0, puntos,txt_Puntos);
-            control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
-            
+        control.submarinosEncontrados(BTN_01, 0, 0, puntos, txt_Puntos);
+        control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
+
     }//GEN-LAST:event_BTN_01ActionPerformed
 
     private void BTN_07ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_07ActionPerformed
-        // TODO add your handling code here:
+        control.submarinosEncontrados(BTN_01, 0, 6, puntos, txt_Puntos);
+        control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
     }//GEN-LAST:event_BTN_07ActionPerformed
 
     private void BTN_06ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_06ActionPerformed
-        // TODO add your handling code here:
+        control.submarinosEncontrados(BTN_02, 0, 5, puntos, txt_Puntos);
+        control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
     }//GEN-LAST:event_BTN_06ActionPerformed
 
     private void BTN_02ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_02ActionPerformed
-         control.submarinosEncontrados(BTN_02,0,1, puntos,txt_Puntos);
-         control.jugada(misiles, disparos,  txt_Misiles_, txt_disparos_);
+        control.submarinosEncontrados(BTN_02, 0, 1, puntos, txt_Puntos);
+        control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
     }//GEN-LAST:event_BTN_02ActionPerformed
 
     private void BTN_10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_10ActionPerformed
-        // TODO add your handling code here:
+        control.submarinosEncontrados(BTN_02, 0, 9, puntos, txt_Puntos);
+        control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
     }//GEN-LAST:event_BTN_10ActionPerformed
 
     private void BTN_03ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_03ActionPerformed
-        // TODO add your handling code here:
+        control.submarinosEncontrados(BTN_02, 0, 2, puntos, txt_Puntos);
+        control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
     }//GEN-LAST:event_BTN_03ActionPerformed
 
     private void BTN_04ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_04ActionPerformed
-        // TODO add your handling code here:
+        control.submarinosEncontrados(BTN_02, 0, 3, puntos, txt_Puntos);
+        control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
     }//GEN-LAST:event_BTN_04ActionPerformed
 
     private void BTN_05ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_05ActionPerformed
-        // TODO add your handling code here:
+        control.submarinosEncontrados(BTN_02, 0, 4, puntos, txt_Puntos);
+        control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
     }//GEN-LAST:event_BTN_05ActionPerformed
 
     private void BTN_08ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_08ActionPerformed
-        // TODO add your handling code here:
+        control.submarinosEncontrados(BTN_02, 0, 7, puntos, txt_Puntos);
+        control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
     }//GEN-LAST:event_BTN_08ActionPerformed
 
     private void BTN_09ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_09ActionPerformed
-        // TODO add your handling code here:
+        control.submarinosEncontrados(BTN_02, 0, 8, puntos, txt_Puntos);
+        control.jugada(misiles, disparos, txt_Misiles_, txt_disparos_);
     }//GEN-LAST:event_BTN_09ActionPerformed
 
     private void BTN_11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_11ActionPerformed
@@ -1720,11 +1725,11 @@ public class Oceano extends javax.swing.JFrame {
         control.imprimir();
         control.limpiar();
         control.asignarSubmarino();
-        
+
         txt_Misiles_.setText("75");
         txt_disparos_.setText("0");
         txt_Puntos.setText("0");
-        
+
     }//GEN-LAST:event_JB_nuevoJuego_ActionPerformed
 
     private void txt_PuntosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_PuntosActionPerformed
@@ -1773,8 +1778,7 @@ public class Oceano extends javax.swing.JFrame {
             }
         });
     }
-    
-    
+
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     public javax.swing.JButton BTN_01;
